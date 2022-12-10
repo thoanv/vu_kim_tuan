@@ -889,3 +889,28 @@ h1, h2, h3, h4, h5, h6, .heading-font {
     border-bottom-right-radius: 40px;
     border: 2px solid;
 }
+#footer .logo__site--main{
+    background-color: #2B2C5B;
+}
+.has-shadow>.col>.col-inner {
+    background-color: #FFF;
+}
+.has-shadow a.plain {
+    color: currentColor;
+    transition: color .3s, opacity .3s, transform .3s;
+}
+.has-shadow .box-image {
+    padding: 10px;
+}
+.sec_tienich .flickity-button{
+    background: #FFF;
+    height: 20px;
+    margin-top: unset!important;
+    border-radius: 4px
+}
+.sec_tienich .flickity-button:hover{
+    background: var(--primary-color);
+}
+.sec_tienich .slider .flickity-prev-next-button:hover svg, .slider .flickity-prev-next-button:hover .arrow{
+    fill: #FFF!important;
+}

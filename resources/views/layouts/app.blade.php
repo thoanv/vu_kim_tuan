@@ -10,6 +10,8 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <title>@yield('title')</title>
+
+    <link rel="shortcut icon" href="{{$info['favicon']}}">
     <style type="text/css">
         img.wp-smiley,
         img.emoji {

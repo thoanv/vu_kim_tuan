@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Admin\InformationController;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\Admin\PostController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -18,6 +19,9 @@ Route::get('/', [HomeController::class, 'index'])->name('home');
 Route::group(['prefix' => 'admin', 'middleware' => ['auth']], function(){
     Route::get('/information', [InformationController::class, 'edit'])->name('information.edit');
     Route::post('/information', [InformationController::class, 'update'])->name('information.update');
+    Route::resources([
+        'posts' => PostController::class
+    ]);
 });
 
 

@@ -36,7 +36,7 @@
                         <div class="card-header p-3 pt-2">
                             <div class="box-images file-upload">
                                 <div class="upload_image" data-name="favicon">
-                                    <input type="hidden" class="logo" name="favicon" value="{{old('favicon', $infomation['favicon'])}}">
+                                    <input type="hidden" class="favicon" name="favicon" value="{{old('favicon', $infomation['favicon'])}}">
                                     <img src="{{$infomation['favicon'] ? $infomation['logo'] : '/assets/img/department.jpg'}}" alt="favicon" class="imge image-favicon">
                                 </div>
                             </div>
@@ -52,7 +52,7 @@
                         <div class="card-header p-3 pt-2">
                             <div class="box-images file-upload">
                                 <div class="upload_image" data-name="thumbnail">
-                                    <input type="hidden" class="logo" name="thumbnail" value="{{old('thumbnail', $infomation['thumbnail'])}}">
+                                    <input type="hidden" class="thumbnail" name="thumbnail" value="{{old('thumbnail', $infomation['thumbnail'])}}">
                                     <img src="{{$infomation['thumbnail'] ? $infomation['thumbnail'] : '/assets/img/department.jpg'}}" alt="thumbnail" class="imge image-thumbnail">
                                 </div>
                             </div>

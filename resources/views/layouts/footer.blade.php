@@ -20,21 +20,25 @@
                     <div class="col-inner text-center dark">
 
                         <h3>Thông tin liên hệ<br/>
-                            Phòng Bán Hàng Dự Án Mona Park View</h3>
+                            {{$info['company']}}</h3>
                         <p><span
-                                style="color: #ffffff;">Địa chỉ: 319 C16 Lý Thường Kiệt, Phường 15, Quận 11, Tp.HCM</span>
+                                style="color: #ffffff;">Địa chỉ: {{$info['address']}}</span>
                         </p>
-                        <p><span style="color: #ffffff;">Hotline: <a href="tel:0769220162">076 922 0162</a></span>
+                        <p><span style="color: #ffffff;">Hotline: <a href="tel:{{$info['phone']}}">{{$info['phone']}}</a></span>
                         </p>
                         <p><span style="color: #ffffff;">Email: <a
-                                    href="https://mauweb.monamedia.net/cdn-cgi/l/email-protection#4327262e2c2d2b362d3726312403242e222a2f6d202c2e"><span
-                                        class="__cf_email__"
-                                        data-cfemail="f99d9c949697918c978d9c8b9eb99e94989095d79a9694">[email&#160;protected]</span></a></span>
+                                    href="mailto:{{$info['email']}}"><span
+                                        class="__cf_email__">{{$info['email']}}</span></a></span>
                         </p>
                         <div class="img has-hover x md-x lg-x y md-y lg-y" id="image_1214612176">
                             <div class="img-inner dark">
-                                <img width="300" height="268" src="wp-content/uploads/2018/12/logo-footer-mona.png"
-                                     class="attachment-large size-large" alt=""/>
+                                <div class="logo__site">
+                                    <div class="logo__site--main">
+                                        <a href="http://127.0.0.1:8000" class="custom-logo-link" rel="home" aria-current="page">
+                                            <img src="/userfiles/images/logo/logo.png" class="custom-logo" alt="Logo" decoding="async">
+                                        </a>
+                                    </div>
+                                </div>
                             </div>
 
                             <style scope="scope">
@@ -53,7 +57,7 @@
 
                         <h3 style="text-align: center;">Đăng ký tham quan và nhận báo giá</h3>
                         <p style="text-align: center;"><span style="color: #ffffff;">Gọi ngay <a
-                                    href="tel:0769220162">076 922 0162</a> (24/7)</span><br/><span
+                                    href="tel:{{$info['phone']}}">{{$info['phone']}}</a> (24/7)</span><br/><span
                                 style="color: #ffffff;">hoặc ĐĂNG KÝ THAM QUAN và NHẬN BÁO GIÁ</span></p>
                         <div role="form" class="wpcf7" id="wpcf7-f43-o2" lang="vi" dir="ltr">
                             <div class="screen-reader-response"></div>

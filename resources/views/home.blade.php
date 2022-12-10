@@ -105,7 +105,7 @@
                                     <div class="bg fill bg-fill "></div>
                                     <div class="overlay"></div>
                                 </div><!-- bg-layers -->
-                                <div class="banner-layers container">
+                                <div class="banner-layers container" >
                                     <div class="fill banner-link"></div>
                                     <div id="text-box-273166983"
                                          class="text-box banner-layer x50 md-x50 lg-x50 y50 md-y50 lg-y50 res-text">
@@ -193,8 +193,7 @@
 
             <div class="section-content relative">
 
-                <div class="gap-element" style="display:block; height:auto; padding-top:30px"
-                     class="clearfix"></div>
+                <div class="gap-element clearfix" style="display:block; height:auto; padding-top:30px"></div>
                 <div class="row align-center" id="row-507989373">
                     <div class="col medium-6 small-12 large-6">
                         <div class="col-inner" style="padding:0px 20px 0px 20px;margin:50px 0px 0px 0px;">
@@ -311,8 +310,7 @@
 
                     </style>
                 </div>
-                <div class="gap-element" style="display:block; height:auto; padding-top:50px"
-                     class="clearfix"></div>
+                <div class="gap-element clearfix" style="display:block; height:auto; padding-top:50px"></div>
             </div><!-- .section-content -->
 
 
@@ -333,60 +331,200 @@
             </style>
         </section>
 
-        <section class="section sec_tongquan_2 dark hide-for-small has-parallax" id="section_1723621646">
-            <div class="bg section-bg fill bg-fill  " data-parallax-container=".section" data-parallax-background
-                 data-parallax="-10">
-
-
-                <div class="section-bg-overlay absolute fill"></div>
+        <section class="section sec_tienich hide-for-small" id="section_653996029">
+            <div class="bg section-bg fill bg-fill  ">
 
 
             </div><!-- .section-bg -->
 
             <div class="section-content relative">
-
-                <div class="gap-element" style="display:block; height:auto; padding-top:30px"
+<span class="scroll-to" data-label="Scroll to: #tien-ich" data-bullet="true" data-link="#tien-ich"
+      data-title="Tien ich"><a name="tien-ich"></a></span>
+                <div class="gap-element" style="display:block; height:auto; padding-top:60px"
                      class="clearfix"></div>
-                <div class="row align-middle align-center" id="row-305740348">
-                    <div class="col medium-6 small-12 large-6">
-                        <div class="col-inner text-right"
-                             style="padding:20px 20px 0px 20px;margin:50px 0px 0px 0px;">
-                            <div class="box has-hover has-hover box-text-bottom">
+                <div class="row" id="row-1029960896">
+                    <div class="col small-12 large-12">
+                        <div class="col-inner text-center">
+                            <h1><span style="font-size: 130%;">Tiện ích sống động</span></h1>
+                            <p>                                Theo đúng tinh thần Mỹ, sở hữu The Nine là sở hữu chuỗi trải nghiệm đẳng cấp, đa màu sắc qua hàng loạt tiện ích - dịch vụ vượt trội của 6 tầng thương mại (siêu thị, gym, spa, nhà hàng cao cấp, sân bóng rổ, mầm non quốc tế, bể sục,...), khu Sky Garden 2000m2 trên tầng 30, vườn treo Babylon độc đáo, sảnh vào cao cấp. Nằm trên khu đất với tổng diện tích 5190 m2, GP.Invest đã đầu tư 4.158 m2 tổng diện tích dự án để quy hoạch đường nội bộ và cây xanh, với những giải pháp tối ưu hoá cho không gian chung của cư dân:
+                            </p>
 
-                                <div class="box-image" style="width:15%;">
-                                    <div class="">
-                                        <img width="194" height="172" src="wp-content/uploads/2018/12/leaf-png.png"
-                                             class="attachment-original size-original" alt=""/></div>
-                                </div><!-- box-image -->
 
-                                <div class="box-text text-right">
-                                    <div class="box-text-inner">
+                            <div
+                                class="row large-columns-4 medium-columns- small-columns-2 row-full-width slider row-slider slider-nav-simple slider-nav-outside slider-nav-push"
+                                data-flickity-options='{"imagesLoaded": true, "groupCells": "100%", "dragThreshold" : 5, "cellAlign": "left","wrapAround": true,"prevNextButtons": true,"percentPosition": true,"pageDots": false, "rightToLeft": false, "autoPlay" : false}'>
 
-                                        <h1><span style="font-size: 120%;">Đẳng cấp sống</span><br/><span
-                                                style="font-size: 120%;">nơi thiên nhiên hội tụ</span></h1>
-                                    </div><!-- box-text-inner -->
-                                </div><!-- box-text -->
-                            </div><!-- .box  -->
+                                <div class="gallery-col col has-shadow">
+                                    <div class="col-inner">
+                                        <a href="http://mauweb.monamedia.net/canhocitialto/mona-media-cong-bo-mo-ban-can-ho-citi-land-quan-2/" class="plain">
+                                            <div class="box box-normal box-text-bottom box-blog-post has-hover">
+                                                <div class="box-image">
+                                                    <div class="image-zoom image-cover" style="padding-top:56.25%;">
+                                                        <img width="1920" height="815" src="http://mauweb.monamedia.net/canhocitialto/wp-content/uploads/2019/02/news4.jpg" class="attachment-original size-original wp-post-image" alt="" srcset="http://mauweb.monamedia.net/canhocitialto/wp-content/uploads/2019/02/news4.jpg 1920w, http://mauweb.monamedia.net/canhocitialto/wp-content/uploads/2019/02/news4-300x127.jpg 300w, http://mauweb.monamedia.net/canhocitialto/wp-content/uploads/2019/02/news4-768x326.jpg 768w, http://mauweb.monamedia.net/canhocitialto/wp-content/uploads/2019/02/news4-1024x435.jpg 1024w, http://mauweb.monamedia.net/canhocitialto/wp-content/uploads/2019/02/news4-600x255.jpg 600w" sizes="(max-width: 1920px) 100vw, 1920px">  							  							  						</div>
+                                                </div><!-- .box-image -->
+                                                <div class="box-text text-center">
+                                                    <div class="box-text-inner blog-post-inner">
+
+
+                                                        <h5 class="post-title is-large ">Mona Media Công Bố Mở Bán Căn Hộ Citi Land Quận 2</h5>
+                                                        <div class="is-divider"></div>
+                                                        <p class="from_the_blog_excerpt ">Mở Bán Citi Land Ngày 8/10 tại Trung tâm Gem Center Mona Media chính thức ...					</p>
+
+                                                        <button href="http://mauweb.monamedia.net/canhocitialto/mona-media-cong-bo-mo-ban-can-ho-citi-land-quan-2/" class="button  is-outline is-small mb-0">
+                                                            Chi tiết						</button>
+
+
+                                                    </div><!-- .box-text-inner -->
+                                                </div><!-- .box-text -->
+                                            </div><!-- .box -->
+                                        </a><!-- .link -->
+                                    </div>
+                                </div><!-- .col -->
+                                <div class="gallery-col col has-shadow">
+                                    <div class="col-inner">
+                                        <a href="http://mauweb.monamedia.net/canhocitialto/mona-media-cong-bo-mo-ban-can-ho-citi-land-quan-2/" class="plain">
+                                            <div class="box box-normal box-text-bottom box-blog-post has-hover">
+                                                <div class="box-image">
+                                                    <div class="image-zoom image-cover" style="padding-top:56.25%;">
+                                                        <img width="1920" height="815" src="http://mauweb.monamedia.net/canhocitialto/wp-content/uploads/2019/02/news4.jpg" class="attachment-original size-original wp-post-image" alt="" srcset="http://mauweb.monamedia.net/canhocitialto/wp-content/uploads/2019/02/news4.jpg 1920w, http://mauweb.monamedia.net/canhocitialto/wp-content/uploads/2019/02/news4-300x127.jpg 300w, http://mauweb.monamedia.net/canhocitialto/wp-content/uploads/2019/02/news4-768x326.jpg 768w, http://mauweb.monamedia.net/canhocitialto/wp-content/uploads/2019/02/news4-1024x435.jpg 1024w, http://mauweb.monamedia.net/canhocitialto/wp-content/uploads/2019/02/news4-600x255.jpg 600w" sizes="(max-width: 1920px) 100vw, 1920px">  							  							  						</div>
+                                                </div><!-- .box-image -->
+                                                <div class="box-text text-center">
+                                                    <div class="box-text-inner blog-post-inner">
+
+
+                                                        <h5 class="post-title is-large ">Mona Media Công Bố Mở Bán Căn Hộ Citi Land Quận 2</h5>
+                                                        <div class="is-divider"></div>
+                                                        <p class="from_the_blog_excerpt ">Mở Bán Citi Land Ngày 8/10 tại Trung tâm Gem Center Mona Media chính thức ...					</p>
+
+                                                        <button href="http://mauweb.monamedia.net/canhocitialto/mona-media-cong-bo-mo-ban-can-ho-citi-land-quan-2/" class="button  is-outline is-small mb-0">
+                                                            Chi tiết						</button>
+
+
+                                                    </div><!-- .box-text-inner -->
+                                                </div><!-- .box-text -->
+                                            </div><!-- .box -->
+                                        </a><!-- .link -->
+                                    </div>
+                                </div><!-- .col -->
+                                <div class="gallery-col col has-shadow">
+                                    <div class="col-inner">
+                                        <a href="http://mauweb.monamedia.net/canhocitialto/mona-media-cong-bo-mo-ban-can-ho-citi-land-quan-2/" class="plain">
+                                            <div class="box box-normal box-text-bottom box-blog-post has-hover">
+                                                <div class="box-image">
+                                                    <div class="image-zoom image-cover" style="padding-top:56.25%;">
+                                                        <img width="1920" height="815" src="http://mauweb.monamedia.net/canhocitialto/wp-content/uploads/2019/02/news4.jpg" class="attachment-original size-original wp-post-image" alt="" srcset="http://mauweb.monamedia.net/canhocitialto/wp-content/uploads/2019/02/news4.jpg 1920w, http://mauweb.monamedia.net/canhocitialto/wp-content/uploads/2019/02/news4-300x127.jpg 300w, http://mauweb.monamedia.net/canhocitialto/wp-content/uploads/2019/02/news4-768x326.jpg 768w, http://mauweb.monamedia.net/canhocitialto/wp-content/uploads/2019/02/news4-1024x435.jpg 1024w, http://mauweb.monamedia.net/canhocitialto/wp-content/uploads/2019/02/news4-600x255.jpg 600w" sizes="(max-width: 1920px) 100vw, 1920px">  							  							  						</div>
+                                                </div><!-- .box-image -->
+                                                <div class="box-text text-center">
+                                                    <div class="box-text-inner blog-post-inner">
+
+
+                                                        <h5 class="post-title is-large ">Mona Media Công Bố Mở Bán Căn Hộ Citi Land Quận 2</h5>
+                                                        <div class="is-divider"></div>
+                                                        <p class="from_the_blog_excerpt ">Mở Bán Citi Land Ngày 8/10 tại Trung tâm Gem Center Mona Media chính thức ...					</p>
+
+                                                        <button href="http://mauweb.monamedia.net/canhocitialto/mona-media-cong-bo-mo-ban-can-ho-citi-land-quan-2/" class="button  is-outline is-small mb-0">
+                                                            Chi tiết						</button>
+
+
+                                                    </div><!-- .box-text-inner -->
+                                                </div><!-- .box-text -->
+                                            </div><!-- .box -->
+                                        </a><!-- .link -->
+                                    </div>
+                                </div><!-- .col -->
+                                <div class="gallery-col col has-shadow">
+                                    <div class="col-inner">
+                                        <a href="http://mauweb.monamedia.net/canhocitialto/mona-media-cong-bo-mo-ban-can-ho-citi-land-quan-2/" class="plain">
+                                            <div class="box box-normal box-text-bottom box-blog-post has-hover">
+                                                <div class="box-image">
+                                                    <div class="image-zoom image-cover" style="padding-top:56.25%;">
+                                                        <img width="1920" height="815" src="http://mauweb.monamedia.net/canhocitialto/wp-content/uploads/2019/02/news4.jpg" class="attachment-original size-original wp-post-image" alt="" srcset="http://mauweb.monamedia.net/canhocitialto/wp-content/uploads/2019/02/news4.jpg 1920w, http://mauweb.monamedia.net/canhocitialto/wp-content/uploads/2019/02/news4-300x127.jpg 300w, http://mauweb.monamedia.net/canhocitialto/wp-content/uploads/2019/02/news4-768x326.jpg 768w, http://mauweb.monamedia.net/canhocitialto/wp-content/uploads/2019/02/news4-1024x435.jpg 1024w, http://mauweb.monamedia.net/canhocitialto/wp-content/uploads/2019/02/news4-600x255.jpg 600w" sizes="(max-width: 1920px) 100vw, 1920px">  							  							  						</div>
+                                                </div><!-- .box-image -->
+                                                <div class="box-text text-center">
+                                                    <div class="box-text-inner blog-post-inner">
+
+
+                                                        <h5 class="post-title is-large ">Mona Media Công Bố Mở Bán Căn Hộ Citi Land Quận 2</h5>
+                                                        <div class="is-divider"></div>
+                                                        <p class="from_the_blog_excerpt ">Mở Bán Citi Land Ngày 8/10 tại Trung tâm Gem Center Mona Media chính thức ...					</p>
+
+                                                        <button href="http://mauweb.monamedia.net/canhocitialto/mona-media-cong-bo-mo-ban-can-ho-citi-land-quan-2/" class="button  is-outline is-small mb-0">
+                                                            Chi tiết						</button>
+
+
+                                                    </div><!-- .box-text-inner -->
+                                                </div><!-- .box-text -->
+                                            </div><!-- .box -->
+                                        </a><!-- .link -->
+                                    </div>
+                                </div><!-- .col -->
+                                <div class="gallery-col col has-shadow">
+                                    <div class="col-inner">
+                                        <a href="http://mauweb.monamedia.net/canhocitialto/mona-media-cong-bo-mo-ban-can-ho-citi-land-quan-2/" class="plain">
+                                            <div class="box box-normal box-text-bottom box-blog-post has-hover">
+                                                <div class="box-image">
+                                                    <div class="image-zoom image-cover" style="padding-top:56.25%;">
+                                                        <img width="1920" height="815" src="http://mauweb.monamedia.net/canhocitialto/wp-content/uploads/2019/02/news4.jpg" class="attachment-original size-original wp-post-image" alt="" srcset="http://mauweb.monamedia.net/canhocitialto/wp-content/uploads/2019/02/news4.jpg 1920w, http://mauweb.monamedia.net/canhocitialto/wp-content/uploads/2019/02/news4-300x127.jpg 300w, http://mauweb.monamedia.net/canhocitialto/wp-content/uploads/2019/02/news4-768x326.jpg 768w, http://mauweb.monamedia.net/canhocitialto/wp-content/uploads/2019/02/news4-1024x435.jpg 1024w, http://mauweb.monamedia.net/canhocitialto/wp-content/uploads/2019/02/news4-600x255.jpg 600w" sizes="(max-width: 1920px) 100vw, 1920px">  							  							  						</div>
+                                                </div><!-- .box-image -->
+                                                <div class="box-text text-center">
+                                                    <div class="box-text-inner blog-post-inner">
+
+
+                                                        <h5 class="post-title is-large ">Mona Media Công Bố Mở Bán Căn Hộ Citi Land Quận 2</h5>
+                                                        <div class="is-divider"></div>
+                                                        <p class="from_the_blog_excerpt ">Mở Bán Citi Land Ngày 8/10 tại Trung tâm Gem Center Mona Media chính thức ...					</p>
+
+                                                        <button href="http://mauweb.monamedia.net/canhocitialto/mona-media-cong-bo-mo-ban-can-ho-citi-land-quan-2/" class="button  is-outline is-small mb-0">
+                                                            Chi tiết						</button>
+
+
+                                                    </div><!-- .box-text-inner -->
+                                                </div><!-- .box-text -->
+                                            </div><!-- .box -->
+                                        </a><!-- .link -->
+                                    </div>
+                                </div><!-- .col -->
+                            </div>
 
                         </div>
                     </div>
-                    <div class="col medium-6 small-12 large-6">
-                        <div class="col-inner"
-                             style="background-color:rgba(255, 255, 255, 0.82);padding:20px 20px 20px 20px;margin:50px 0px 0px 0px;">
-                            <h2><span style="color: #105458;">Tiện ích nổi bật</span></h2>
-                            <p><span style="color: #105458;"><br/>
-<strong>Không gian xanh nội khu</strong> được thiết kế như khu vườn đầy ánh sáng tạo với trên 50 tiện ích : Hồ bơi sinh thái, Đảo thiên đường trẻ thơ, Khu cafe ngoài trời, Phố BBQ, Đồng cỏ xanh, các khu Gym ngoài trời…
-                            </p>
-                            <p><span style="color: #105458;"><strong>Thiết kế căn hộ thông mình</strong> từ 2-4 phòng ngủ, 90% căn hộ có ban công kính.</span>
-                            </p>
-                            <p><span style="color: #105458;"><strong>Trải nghiệm cuộc sống Đẳng cấp hơn</strong> với thiết kế căn Duplex có view nhìn toàn công viên.</span>
-                            </p>
-                            <p><span style="color: #105458;"><strong>Nội thất sang trọng</strong> với Sàn gỗ, Hệ thống Intercom và thiết bị vệ sinh được nhập khẩu từ Đức.</span>
-                            </p>
-                            <p><span style="color: #105458;"><strong>Khu vực lễ tân với sảnh sang trọng</strong> Hệ thống Camera 24/7 đảm bảo an ninh.</span>
-                            </p>
-                            <p><span style="color: #105458;"><strong>Trải nghiệm trên 100 tiện ích</strong> có tại Khu đô thị Celadon City từ Sức khỏe, Giáo dục, Mua sắm, giải trí, Văn hóa….</span>
-                            </p>
+                </div>
+                <div class="gap-element" style="display:block; height:auto; padding-top:20px"
+                     class="clearfix"></div>
+            </div><!-- .section-content -->
+
+
+            <style scope="scope">
+
+                #section_653996029 {
+                    padding-top: 0px;
+                    padding-bottom: 0px;
+                }
+
+                #section_653996029 .section-bg.bg-loaded {
+                    background-image: url(wp-content/uploads/2018/12/bg8934.jpg);
+                }
+            </style>
+        </section>
+
+        <section class="section sec_tongquan_2 dark hide-for-small has-parallax" id="section_1723621646">
+            <div class="bg section-bg fill bg-fill  " data-parallax-container=".section" data-parallax-background
+                 data-parallax="-10">
+                <div class="section-bg-overlay absolute fill"></div>
+            </div><!-- .section-bg -->
+
+            <div class="section-content relative">
+
+                <div class="gap-element clearfix" style="display:block; height:auto; padding-top:30px"></div>
+                <div class="row align-middle align-center" id="row-305740348">
+                    <div class="col small-12 large-12">
+                        <div class="col-inner text-center dark">
+                            <h1><span style="font-size: 130%;">Đăng ký tham quan và nhận báo giá</span></h1>
+                            <p> Tìm kiếm một căn hộ cao cấp ở Hà Nội không khó, nhưng để chọn lựa một ngôi nhà mà mọi tiện ích được đáp ứng và đạt chuẩn sống cao vẫn luôn là mối băn khoăn với những cư dân hiện đại.</p>
+                            <a class="button white is-outline" style="border-radius:99px;">
+                                <span>Xem ngay</span>
+                            </a>
+
                         </div>
                     </div>
 
@@ -426,38 +564,31 @@
 
                     <span class="scroll-to" data-label="Scroll to: #vi-tri" data-bullet="true" data-link="#vi-tri"
                           data-title="Vị trí"><a name="vi-tri"></a></span>
-                <div class="gap-element" style="display:block; height:auto; padding-top:10px"
+                <div class="gap-element" style="display:block; height:auto; padding-top:0px"
                      class="clearfix"></div>
-                <div class="row" id="row-754842918">
-                    <div class="col small-12 large-12">
+                <div class="row" id="row-754842918" style="max-width: unset">
+                    <div class="col medium-4 small-12 large-5" style="padding-bottom: 5px!important;">
                         <div class="col-inner" style="margin:50px 0px 0px 0px;">
-                            <h1><span style="color: #105458; font-size: 130%;">Vị trí đắc địa</span></h1>
+                            <h1><span style="color: #105458; font-size: 130%;">Vị trí kiêu hãnh</span></h1>
+                            <p>Phạm Văn Đồng – tuyến đường hiện đại và rộng đẹp nhất thủ đô Hà Nội</p>
                             <ul>
-                                <li><span style="font-size: 100%;"><strong>Dự án Mona Park View</strong> có vị trí kim cương khi có tầm View trực diện Công Viên Cầu Giấy.</span>
+                                <li><span style="font-size: 100%;"><strong>Dự án  The Nine, 9 Phạm Văn Đồng</strong> có vị trí kim cương khi có tầm View đẹp.</span>
                                 </li>
-                                <li><span style="font-size: 100%;">Dự án gần bệnh viện 198: 2 km, cách bệnh viện Giao thông vận tài 1.5 km.</span>
+                                <li><span style="font-size: 100%;">Đường Phạm Văn Đồng mở rộng có tổng số 12 làn đường với mặt cắt đường rộng đến 98m. Đây cũng là đoạn đường hiếm hoi ở Hà Nội được đầu tư quy mô lớn hình thành nên tuyến Vành đai xanh của Hà Nội với 7km vỉa hè rộng phủ 2 dải cây xanh</span>
                                 </li>
-                                <li><span style="font-size: 100%;">Cạnh chợ Cầu Giấy, chợ Yên Hòa; Cách công viên Cầu Giấy 1 km; Cách hệ thống trường Chuyên Amsterdam 1,3 km.</span>
-                                </li>
-                                <li><span style="font-size: 100%;">Cách trường PTDL Lương Thế Vinh và các trường quốc tế lân cận 1 km, trường ĐH Phương Đông 700m; Cách siêu thị Big C 1.2 km…</span>
-                                </li>
-                                <li><span style="font-size: 100%;">Từ dự án việc di chuyển đến các địa điểm trong và ngoài thành phố vô cùng thuận tiện, nhanh chóng.</span>
+                                <li><span style="font-size: 100%;">Chung cư The Nine nằm mặt đường Phạm Văn Đồng, cách ngã tư Mai Dịch – Xuân Thủy 300m và ngay sát Lối vào cầu cạn trên cao Mai Dịch – Nam Thăng Long....</span>
                                 </li>
                             </ul>
                         </div>
                     </div>
-                </div>
-                <div class="row" id="row-46411436">
-                    <div class="col medium-6 small-12 large-6">
+
+                    <div class="col medium-8 small-12 large-7" style="padding-bottom: 0; padding-right: 0">
                         <div class="col-inner">
                             <div class="img has-hover x md-x lg-x y md-y lg-y" id="image_554554161">
                                 <a class="image-lightbox lightbox-gallery"
-                                   href="wp-content/uploads/2018/12/lien-ket-1024x576.jpg" title="">
+                                   href="/images/thenine-location.jpg" title="">
                                     <div class="img-inner dark">
-                                        <img width="1024" height="576" src="wp-content/uploads/2018/12/lien-ket.jpg"
-                                             class="attachment-original size-original" alt=""
-                                             srcset="http://mauweb.monamedia.net/luxury-parkview/wp-content/uploads/2018/12/lien-ket.jpg 1024w, http://mauweb.monamedia.net/luxury-parkview/wp-content/uploads/2018/12/lien-ket-300x169.jpg 300w, http://mauweb.monamedia.net/luxury-parkview/wp-content/uploads/2018/12/lien-ket-768x432.jpg 768w, http://mauweb.monamedia.net/luxury-parkview/wp-content/uploads/2018/12/lien-ket-600x338.jpg 600w"
-                                             sizes="(max-width: 1024px) 100vw, 1024px"/>
+                                        <img src="/images/thenine-location.jpg" alt="thenine-location">
                                     </div>
                                 </a>
                                 <style scope="scope">
@@ -470,163 +601,8 @@
 
                         </div>
                     </div>
-                    <div class="col medium-3 small-12 large-3">
-                        <div class="col-inner">
-
-                            <div class="icon-box featured-box icon-box-left text-left"
-                                 style="margin:0px 0px 20px 0px;">
-                                <div class="icon-box-img" style="width: 70px">
-                                    <div class="icon">
-                                        <div class="icon-inner">
-                                            <img width="100" height="100"
-                                                 src="wp-content/uploads/2018/12/ICON-1.png"
-                                                 class="attachment-medium size-medium" alt=""/></div>
-                                    </div>
-                                </div>
-                                <div class="icon-box-text last-reset">
-
-                                    <h4 style="margin-bottom: 0px; margin-top: 10px">Chợ Xanh</h4>
-                                    <p>5 phút tới</p>
-                                </div>
-                            </div><!-- .icon-box -->
-
-
-                            <div class="icon-box featured-box icon-box-left text-left"
-                                 style="margin:0px 0px 20px 0px;">
-                                <div class="icon-box-img" style="width: 70px">
-                                    <div class="icon">
-                                        <div class="icon-inner">
-                                            <img width="100" height="100"
-                                                 src="wp-content/uploads/2018/12/ICON-2.png"
-                                                 class="attachment-medium size-medium" alt=""/></div>
-                                    </div>
-                                </div>
-                                <div class="icon-box-text last-reset">
-
-                                    <h4 style="margin-bottom: 0px; margin-top: 10px">ĐH Quốc gia</h4>
-                                    <p>7 phút tới</p>
-                                </div>
-                            </div><!-- .icon-box -->
-
-
-                            <div class="icon-box featured-box icon-box-left text-left"
-                                 style="margin:0px 0px 20px 0px;">
-                                <div class="icon-box-img" style="width: 70px">
-                                    <div class="icon">
-                                        <div class="icon-inner">
-                                            <img width="100" height="100"
-                                                 src="wp-content/uploads/2018/12/ICON-3.png"
-                                                 class="attachment-medium size-medium" alt=""/></div>
-                                    </div>
-                                </div>
-                                <div class="icon-box-text last-reset">
-
-                                    <h4 style="margin-bottom: 0px; margin-top: 10px">BV 198</h4>
-                                    <p>12 phút tới</p>
-                                </div>
-                            </div><!-- .icon-box -->
-
-
-                            <div class="icon-box featured-box icon-box-left text-left"
-                                 style="margin:0px 0px 20px 0px;">
-                                <div class="icon-box-img" style="width: 70px">
-                                    <div class="icon">
-                                        <div class="icon-inner">
-                                            <img width="100" height="100"
-                                                 src="wp-content/uploads/2018/12/ICON-4.png"
-                                                 class="attachment-medium size-medium" alt=""/></div>
-                                    </div>
-                                </div>
-                                <div class="icon-box-text last-reset">
-
-                                    <h4 style="margin-bottom: 0px; margin-top: 10px">Big C Thăng Long</h4>
-                                    <p>20 phút tới</p>
-                                </div>
-                            </div><!-- .icon-box -->
-
-
-                        </div>
-                    </div>
-                    <div class="col medium-3 small-12 large-3">
-                        <div class="col-inner">
-
-                            <div class="icon-box featured-box icon-box-left text-left"
-                                 style="margin:0px 0px 20px 0px;">
-                                <div class="icon-box-img" style="width: 70px">
-                                    <div class="icon">
-                                        <div class="icon-inner">
-                                            <img width="100" height="100"
-                                                 src="wp-content/uploads/2018/12/icon-5.png"
-                                                 class="attachment-medium size-medium" alt=""/></div>
-                                    </div>
-                                </div>
-                                <div class="icon-box-text last-reset">
-
-                                    <h4 style="margin-bottom: 0px; margin-top: 10px">ĐH Sư Phạm</h4>
-                                    <p>5 phút tới</p>
-                                </div>
-                            </div><!-- .icon-box -->
-
-
-                            <div class="icon-box featured-box icon-box-left text-left"
-                                 style="margin:0px 0px 20px 0px;">
-                                <div class="icon-box-img" style="width: 70px">
-                                    <div class="icon">
-                                        <div class="icon-inner">
-                                            <img width="100" height="100"
-                                                 src="wp-content/uploads/2018/12/icon-6.png"
-                                                 class="attachment-medium size-medium" alt=""/></div>
-                                    </div>
-                                </div>
-                                <div class="icon-box-text last-reset">
-
-                                    <h4 style="margin-bottom: 0px; margin-top: 10px">Công viên CV1</h4>
-                                    <p>5 phút tới</p>
-                                </div>
-                            </div><!-- .icon-box -->
-
-
-                            <div class="icon-box featured-box icon-box-left text-left"
-                                 style="margin:0px 0px 20px 0px;">
-                                <div class="icon-box-img" style="width: 70px">
-                                    <div class="icon">
-                                        <div class="icon-inner">
-                                            <img width="100" height="100"
-                                                 src="wp-content/uploads/2018/12/icon-6-1.png"
-                                                 class="attachment-medium size-medium" alt=""/></div>
-                                    </div>
-                                </div>
-                                <div class="icon-box-text last-reset">
-
-                                    <h4 style="margin-bottom: 0px; margin-top: 10px">Bến xe miền Đông</h4>
-                                    <p>10 phút tới</p>
-                                </div>
-                            </div><!-- .icon-box -->
-
-
-                            <div class="icon-box featured-box icon-box-left text-left"
-                                 style="margin:0px 0px 20px 0px;">
-                                <div class="icon-box-img" style="width: 70px">
-                                    <div class="icon">
-                                        <div class="icon-inner">
-                                            <img width="100" height="100"
-                                                 src="wp-content/uploads/2018/12/icon-8.png"
-                                                 class="attachment-medium size-medium" alt=""/></div>
-                                    </div>
-                                </div>
-                                <div class="icon-box-text last-reset">
-
-                                    <h4 style="margin-bottom: 0px; margin-top: 10px">Sân bay Tân Sơn Nhất</h4>
-                                    <p>35 phút tới</p>
-                                </div>
-                            </div><!-- .icon-box -->
-
-
-                        </div>
-                    </div>
                 </div>
-                <div class="gap-element" style="display:block; height:auto; padding-top:30px"
-                     class="clearfix"></div>
+                <div class="gap-element clearfix" style="display:block; height:auto; padding-top:0px"></div>
             </div><!-- .section-content -->
 
 
@@ -639,237 +615,7 @@
             </style>
         </section>
 
-        <section class="section sec_dac_quyen hide-for-small has-parallax" id="section_1661614909">
-            <div class="bg section-bg fill bg-fill  " data-parallax-container=".section" data-parallax-background
-                 data-parallax="-10">
 
-
-            </div><!-- .section-bg -->
-
-            <div class="section-content relative">
-
-                <div class="gap-element" style="display:block; height:auto; padding-top:70px"
-                     class="clearfix"></div>
-                <div class="row row-collapse" id="row-986730689">
-                    <div class="col small-12 large-12">
-                        <div class="col-inner dark" style="margin:0px 0px 30px 0px;">
-                            <h1><span style="font-size: 130%;">Đặc quyền tiện nghi</span><br/><span
-                                    style="font-size: 130%;">sống cuộc sống viên mãn</span></h1>
-                        </div>
-                    </div>
-                    <div class="col medium-6 small-12 large-6">
-                        <div class="col-inner">
-
-
-                            <div class="row large-columns-3 medium-columns- small-columns-2">
-                                <div class="gallery-col col">
-                                    <div class="col-inner">
-                                        <a class="image-lightbox lightbox-gallery"
-                                           href="wp-content/uploads/2018/12/dai-phun-nuoc.jpg" title="">
-                                            <div class="box has-hover gallery-box box-default">
-                                                <div class="box-image" style="border-radius:50%;">
-                                                    <img width="200" height="200"
-                                                         src="wp-content/uploads/2018/12/dai-phun-nuoc.jpg"
-                                                         class="attachment-original size-original" alt=""
-                                                         ids="493,494,495,496,497" style="default" columns="3"
-                                                         image_radius="50" image_size="original"
-                                                         srcset="http://mauweb.monamedia.net/luxury-parkview/wp-content/uploads/2018/12/dai-phun-nuoc.jpg 200w, http://mauweb.monamedia.net/luxury-parkview/wp-content/uploads/2018/12/dai-phun-nuoc-150x150.jpg 150w, http://mauweb.monamedia.net/luxury-parkview/wp-content/uploads/2018/12/dai-phun-nuoc-100x100.jpg 100w"
-                                                         sizes="(max-width: 200px) 100vw, 200px"/></div>
-                                                <!-- .image -->
-                                                <div class="box-text text-left">
-                                                    <p></p>
-                                                </div><!-- .text -->
-                                            </div><!-- .box -->
-                                        </a></div><!-- .col-inner -->
-                                </div><!-- .col -->
-                                <div class="gallery-col col">
-                                    <div class="col-inner">
-                                        <a class="image-lightbox lightbox-gallery"
-                                           href="wp-content/uploads/2018/12/ho-boi-olympic-2.jpg" title="">
-                                            <div class="box has-hover gallery-box box-default">
-                                                <div class="box-image" style="border-radius:50%;">
-                                                    <img width="200" height="200"
-                                                         src="wp-content/uploads/2018/12/ho-boi-olympic-2.jpg"
-                                                         class="attachment-original size-original" alt=""
-                                                         ids="493,494,495,496,497" style="default" columns="3"
-                                                         image_radius="50" image_size="original"
-                                                         srcset="http://mauweb.monamedia.net/luxury-parkview/wp-content/uploads/2018/12/ho-boi-olympic-2.jpg 200w, http://mauweb.monamedia.net/luxury-parkview/wp-content/uploads/2018/12/ho-boi-olympic-2-150x150.jpg 150w, http://mauweb.monamedia.net/luxury-parkview/wp-content/uploads/2018/12/ho-boi-olympic-2-100x100.jpg 100w"
-                                                         sizes="(max-width: 200px) 100vw, 200px"/></div>
-                                                <!-- .image -->
-                                                <div class="box-text text-left">
-                                                    <p></p>
-                                                </div><!-- .text -->
-                                            </div><!-- .box -->
-                                        </a></div><!-- .col-inner -->
-                                </div><!-- .col -->
-                                <div class="gallery-col col">
-                                    <div class="col-inner">
-                                        <a class="image-lightbox lightbox-gallery"
-                                           href="wp-content/uploads/2018/12/pho-nuong-bbq.jpg" title="">
-                                            <div class="box has-hover gallery-box box-default">
-                                                <div class="box-image" style="border-radius:50%;">
-                                                    <img width="200" height="200"
-                                                         src="wp-content/uploads/2018/12/pho-nuong-bbq.jpg"
-                                                         class="attachment-original size-original" alt=""
-                                                         ids="493,494,495,496,497" style="default" columns="3"
-                                                         image_radius="50" image_size="original"
-                                                         srcset="http://mauweb.monamedia.net/luxury-parkview/wp-content/uploads/2018/12/pho-nuong-bbq.jpg 200w, http://mauweb.monamedia.net/luxury-parkview/wp-content/uploads/2018/12/pho-nuong-bbq-150x150.jpg 150w, http://mauweb.monamedia.net/luxury-parkview/wp-content/uploads/2018/12/pho-nuong-bbq-100x100.jpg 100w"
-                                                         sizes="(max-width: 200px) 100vw, 200px"/></div>
-                                                <!-- .image -->
-                                                <div class="box-text text-left">
-                                                    <p></p>
-                                                </div><!-- .text -->
-                                            </div><!-- .box -->
-                                        </a></div><!-- .col-inner -->
-                                </div><!-- .col -->
-                                <div class="gallery-col col">
-                                    <div class="col-inner">
-                                        <a class="image-lightbox lightbox-gallery"
-                                           href="wp-content/uploads/2018/12/truong-hoc-celadon.jpg" title="">
-                                            <div class="box has-hover gallery-box box-default">
-                                                <div class="box-image" style="border-radius:50%;">
-                                                    <img width="200" height="200"
-                                                         src="wp-content/uploads/2018/12/truong-hoc-celadon.jpg"
-                                                         class="attachment-original size-original" alt=""
-                                                         ids="493,494,495,496,497" style="default" columns="3"
-                                                         image_radius="50" image_size="original"
-                                                         srcset="http://mauweb.monamedia.net/luxury-parkview/wp-content/uploads/2018/12/truong-hoc-celadon.jpg 200w, http://mauweb.monamedia.net/luxury-parkview/wp-content/uploads/2018/12/truong-hoc-celadon-150x150.jpg 150w, http://mauweb.monamedia.net/luxury-parkview/wp-content/uploads/2018/12/truong-hoc-celadon-100x100.jpg 100w"
-                                                         sizes="(max-width: 200px) 100vw, 200px"/></div>
-                                                <!-- .image -->
-                                                <div class="box-text text-left">
-                                                    <p></p>
-                                                </div><!-- .text -->
-                                            </div><!-- .box -->
-                                        </a></div><!-- .col-inner -->
-                                </div><!-- .col -->
-                                <div class="gallery-col col">
-                                    <div class="col-inner">
-                                        <a class="image-lightbox lightbox-gallery"
-                                           href="wp-content/uploads/2018/12/xe-dien-mien-phi.jpg" title="">
-                                            <div class="box has-hover gallery-box box-default">
-                                                <div class="box-image" style="border-radius:50%;">
-                                                    <img width="200" height="200"
-                                                         src="wp-content/uploads/2018/12/xe-dien-mien-phi.jpg"
-                                                         class="attachment-original size-original" alt=""
-                                                         ids="493,494,495,496,497" style="default" columns="3"
-                                                         image_radius="50" image_size="original"
-                                                         srcset="http://mauweb.monamedia.net/luxury-parkview/wp-content/uploads/2018/12/xe-dien-mien-phi.jpg 200w, http://mauweb.monamedia.net/luxury-parkview/wp-content/uploads/2018/12/xe-dien-mien-phi-150x150.jpg 150w, http://mauweb.monamedia.net/luxury-parkview/wp-content/uploads/2018/12/xe-dien-mien-phi-100x100.jpg 100w"
-                                                         sizes="(max-width: 200px) 100vw, 200px"/></div>
-                                                <!-- .image -->
-                                                <div class="box-text text-left">
-                                                    <p></p>
-                                                </div><!-- .text -->
-                                            </div><!-- .box -->
-                                        </a></div><!-- .col-inner -->
-                                </div><!-- .col -->
-                            </div>
-                        </div>
-                    </div>
-
-                    <style scope="scope">
-
-                    </style>
-                </div>
-                <div class="gap-element" style="display:block; height:auto; padding-top:10px"
-                     class="clearfix"></div>
-            </div><!-- .section-content -->
-
-
-            <style scope="scope">
-
-                #section_1661614909 {
-                    padding-top: 0px;
-                    padding-bottom: 0px;
-                }
-
-                #section_1661614909 .section-bg.bg-loaded {
-                    background-image: url(wp-content/uploads/2018/12/bg4.jpg);
-                }
-            </style>
-        </section>
-
-        <section class="section sec_tienich hide-for-small" id="section_959102426">
-            <div class="bg section-bg fill bg-fill  bg-loaded">
-
-
-            </div><!-- .section-bg -->
-
-            <div class="section-content relative">
-
-                    <span class="scroll-to" data-label="Scroll to: #tien-ich" data-bullet="true" data-link="#tien-ich"
-                          data-title="Tien ich"><a name="tien-ich"></a></span>
-                <div class="gap-element" style="display:block; height:auto; padding-top:80px"
-                     class="clearfix"></div>
-                <div class="row" id="row-284249773">
-                    <div class="col medium-6 small-12 large-6">
-                        <div class="col-inner" style="margin:-20px 0px 0px 0px;">
-                            <h1><span style="font-size: 130%;">Tiện ích nội đô</span></h1>
-                            <div class="div_tien_ich">
-                                <ul>
-                                    <li><span style="color: #ff0000;">1. Main entrance/</span> Lối vào</li>
-                                    <li>2. Drop-off station in Pedestrian area/ Điểm đưa đón khách tản bộ</li>
-                                    <li><span style="color: #ff0000;">3. Mini-clubhouse</span> / Nhà chờ, khu Café
-                                    </li>
-                                    <li>4. Outdoor Café/ Café ánh sao</li>
-                                    <li><span style="color: #ff0000;">5. Pool Deck</span>/ Hồ bơi sinh thái</li>
-                                    <li>6. Children Pool With Water Play</li>
-                                    <li><span style="color: #ff0000;">7. Equipment/</span> Đảo thiên đường trẻ thơ
-                                    </li>
-                                    <li>8. Pavilion/ Lều nghỉ chân</li>
-                                    <li><span style="color: #ff0000;">9. Shallow Stream/</span> Suối lười</li>
-                                    <li>10. Aroma Garden/ Vườn thảo mộc</li>
-                                    <li><span style="color: #ff0000;">11. BBQ Area With Trellis/</span> Phố nướng
-                                    </li>
-                                    <li>12. BBQ Reflexology Path/ Con đường thư giãn</li>
-                                    <li><span style="color: #ff0000;">13. Grand Lawn/</span> Thảo nguyên xanh</li>
-                                    <li>14. Outdoor Amphitheatre/ Sân khấu ngoài trời</li>
-                                    <li><span style="color: #ff0000;">15. Stage With Cover Structure/</span> Sân
-                                        khấu mái vòm
-                                    </li>
-                                    <li>16. Activity Plaza/ Quảng trường ánh sáng</li>
-                                    <li><span style="color: #ff0000;">17. Community House/</span> Nhà cộng đồng</li>
-                                    <li>18. Open Lawn/ Đồng cỏ xanh</li>
-                                    <li><span style="color: #ff0000;">19. Light Well/</span> Giếng trời</li>
-                                    <li>20. Relaxing Garden/ Vườn thảo mộc</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col medium-6 small-12 large-6">
-                        <div class="col-inner">
-                            <div class="img has-hover x md-x lg-x y md-y lg-y" id="image_885646579">
-                                <div class="img-inner dark">
-                                    <img width="1024" height="717"
-                                         src="wp-content/uploads/2018/12/cong-vien-cau-giay.jpg"
-                                         class="attachment-original size-original" alt=""
-                                         srcset="http://mauweb.monamedia.net/luxury-parkview/wp-content/uploads/2018/12/cong-vien-cau-giay.jpg 1024w, http://mauweb.monamedia.net/luxury-parkview/wp-content/uploads/2018/12/cong-vien-cau-giay-300x210.jpg 300w, http://mauweb.monamedia.net/luxury-parkview/wp-content/uploads/2018/12/cong-vien-cau-giay-768x538.jpg 768w, http://mauweb.monamedia.net/luxury-parkview/wp-content/uploads/2018/12/cong-vien-cau-giay-600x420.jpg 600w"
-                                         sizes="(max-width: 1024px) 100vw, 1024px"/>
-                                </div>
-
-                                <style scope="scope">
-
-                                    #image_885646579 {
-                                        width: 100%;
-                                    }
-                                </style>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-                <div class="gap-element" style="display:block; height:auto; padding-top:50px"
-                     class="clearfix"></div>
-            </div><!-- .section-content -->
-
-
-            <style scope="scope">
-
-                #section_959102426 {
-                    padding-top: 0px;
-                    padding-bottom: 0px;
-                }
-            </style>
-        </section>
 
         <section class="section sec_matbang hide-for-small has-parallax" id="section_13959373">
             <div class="bg section-bg fill bg-fill  " data-parallax-container=".section" data-parallax-background
@@ -892,16 +638,10 @@
                         <div class="col-inner text-center dark">
                             <h1 style="text-align: center;"><span style="font-size: 130%;">Mặt bằng điển hình</span>
                             </h1>
-                            <p style="text-align: center;"><span style="font-size: 100%;">Thiết kế chung cư cao cấp Mona Park View Cầu Giấy được giới chuyên môn đánh giá rất cao, thông minh và đa dạng hóa các loại diện tích tương ứng với công năng sử dụng.</span>
-                            </p>
-                            <p style="text-align: center;"><span style="font-size: 100%;">Dự án với thiết kế đẳng cấp với những diện tích phù hợp đáp ứng đa dạng về nhu cầu căn hộ của quý khách hàng: CH1 – 70.50m2: CH2 – 118.36m2: CH3 – 131.02m2: CH5 – 102.83m2: CH6 – 70.22m2: CH8 – 63.98m2: CH9 – 106.66m2.</span>
+                            <p style="text-align: center;"><span style="font-size: 100%;">Thiết kế cao cấp được giới chuyên môn đánh giá rất cao, thông minh và đa dạng hóa các loại diện tích tương ứng với công năng sử dụng.</span>
                             </p>
                         </div>
                     </div>
-
-                    <style scope="scope">
-
-                    </style>
                 </div>
                 <div class="row" id="row-1712479426">
                     <div class="col small-12 large-12">
@@ -910,31 +650,19 @@
                             <div class="tabbed-content">
 
                                 <ul class="nav nav-outline nav-normal nav-size-normal nav-center">
-                                    <li class="tab active has-icon"><a href="#tab_mặt-bằng-điển-hình"><span>Mặt bằng điển hình</span></a>
+                                    <li class="tab active has-icon"><a href="#tab_tang8-22"><span>Tầng 8 - 22</span></a>
                                     </li>
                                     <li class="tab has-icon"><a
-                                            href="#tab_căn-01---70,5m2"><span>Căn 01 - 70,5m2</span></a></li>
-                                    <li class="tab has-icon"><a href="#tab_căn-02---118,36m2"><span>Căn 02 - 118,36m2</span></a>
-                                    </li>
-                                    <li class="tab has-icon"><a href="#tab_căn-03---131,02m2"><span>Căn 03 - 131,02m2</span></a>
-                                    </li>
-                                    <li class="tab has-icon"><a href="#tab_căn-05---102,03m2"><span>Căn 05 - 102,03m2</span></a>
-                                    </li>
-                                    <li class="tab has-icon"><a
-                                            href="#tab_căn-06---70,22m2"><span>Căn 06 - 70,22m2</span></a></li>
-                                    <li class="tab has-icon"><a
-                                            href="#tab_căn-08---69,98m2"><span>Căn 08 - 69,98m2</span></a></li>
-                                    <li class="tab has-icon"><a
-                                            href="#tab_căn-09---106,6m2"><span>Căn 09 - 106,6m2</span></a></li>
+                                            href="#tab_tang23-30"><span>Tâng 23 - 30</span></a></li>
+
                                 </ul>
                                 <div class="tab-panels">
-                                    <div class="panel active entry-content" id="tab_mặt-bằng-điển-hình">
+                                    <div class="panel active entry-content" id="tab_tang8-22">
                                         <div class="img has-hover x md-x lg-x y md-y lg-y" id="image_1523744510">
                                             <div class="img-inner dark">
-                                                <img width="1368" height="975"
-                                                     src="wp-content/uploads/2018/12/tab1.jpg"
+                                                <img width="1024" height="588"
+                                                     src="/images/matbang-tang-02.png"
                                                      class="attachment-original size-original" alt=""
-                                                     srcset="http://mauweb.monamedia.net/luxury-parkview/wp-content/uploads/2018/12/tab1.jpg 1368w, http://mauweb.monamedia.net/luxury-parkview/wp-content/uploads/2018/12/tab1-300x214.jpg 300w, http://mauweb.monamedia.net/luxury-parkview/wp-content/uploads/2018/12/tab1-768x547.jpg 768w, http://mauweb.monamedia.net/luxury-parkview/wp-content/uploads/2018/12/tab1-1024x730.jpg 1024w, http://mauweb.monamedia.net/luxury-parkview/wp-content/uploads/2018/12/tab1-600x428.jpg 600w"
                                                      sizes="(max-width: 1368px) 100vw, 1368px"/>
                                             </div>
 
@@ -947,13 +675,12 @@
                                         </div>
 
                                     </div>
-                                    <div class="panel entry-content" id="tab_căn-01---70,5m2">
+                                    <div class="panel entry-content" id="tab_tang23-30">
                                         <div class="img has-hover x md-x lg-x y md-y lg-y" id="image_1679151321">
                                             <div class="img-inner dark">
                                                 <img width="1024" height="588"
-                                                     src="wp-content/uploads/2018/12/tab2.jpg"
+                                                     src="/images/matbang-tang-01.png"
                                                      class="attachment-original size-original" alt=""
-                                                     srcset="http://mauweb.monamedia.net/luxury-parkview/wp-content/uploads/2018/12/tab2.jpg 1024w, http://mauweb.monamedia.net/luxury-parkview/wp-content/uploads/2018/12/tab2-300x172.jpg 300w, http://mauweb.monamedia.net/luxury-parkview/wp-content/uploads/2018/12/tab2-768x441.jpg 768w, http://mauweb.monamedia.net/luxury-parkview/wp-content/uploads/2018/12/tab2-600x345.jpg 600w"
                                                      sizes="(max-width: 1024px) 100vw, 1024px"/>
                                             </div>
 
@@ -966,128 +693,10 @@
                                         </div>
 
                                     </div>
-                                    <div class="panel entry-content" id="tab_căn-02---118,36m2">
-                                        <div class="img has-hover x md-x lg-x y md-y lg-y" id="image_1420800321">
-                                            <div class="img-inner dark">
-                                                <img width="1024" height="590"
-                                                     src="wp-content/uploads/2018/12/tab3.jpg"
-                                                     class="attachment-original size-original" alt=""
-                                                     srcset="http://mauweb.monamedia.net/luxury-parkview/wp-content/uploads/2018/12/tab3.jpg 1024w, http://mauweb.monamedia.net/luxury-parkview/wp-content/uploads/2018/12/tab3-300x173.jpg 300w, http://mauweb.monamedia.net/luxury-parkview/wp-content/uploads/2018/12/tab3-768x443.jpg 768w, http://mauweb.monamedia.net/luxury-parkview/wp-content/uploads/2018/12/tab3-600x346.jpg 600w"
-                                                     sizes="(max-width: 1024px) 100vw, 1024px"/>
-                                            </div>
 
-                                            <style scope="scope">
-
-                                                #image_1420800321 {
-                                                    width: 100%;
-                                                }
-                                            </style>
-                                        </div>
-
-                                    </div>
-                                    <div class="panel entry-content" id="tab_căn-03---131,02m2">
-                                        <div class="img has-hover x md-x lg-x y md-y lg-y" id="image_157679040">
-                                            <div class="img-inner dark">
-                                                <img width="1024" height="590"
-                                                     src="wp-content/uploads/2018/12/tab4.jpg"
-                                                     class="attachment-original size-original" alt=""
-                                                     srcset="http://mauweb.monamedia.net/luxury-parkview/wp-content/uploads/2018/12/tab4.jpg 1024w, http://mauweb.monamedia.net/luxury-parkview/wp-content/uploads/2018/12/tab4-300x173.jpg 300w, http://mauweb.monamedia.net/luxury-parkview/wp-content/uploads/2018/12/tab4-768x443.jpg 768w, http://mauweb.monamedia.net/luxury-parkview/wp-content/uploads/2018/12/tab4-600x346.jpg 600w"
-                                                     sizes="(max-width: 1024px) 100vw, 1024px"/>
-                                            </div>
-
-                                            <style scope="scope">
-
-                                                #image_157679040 {
-                                                    width: 100%;
-                                                }
-                                            </style>
-                                        </div>
-
-                                    </div>
-                                    <div class="panel entry-content" id="tab_căn-05---102,03m2">
-                                        <div class="img has-hover x md-x lg-x y md-y lg-y" id="image_1684944867">
-                                            <div class="img-inner dark">
-                                                <img width="1024" height="588"
-                                                     src="wp-content/uploads/2018/12/tab5.jpg"
-                                                     class="attachment-original size-original" alt=""
-                                                     srcset="http://mauweb.monamedia.net/luxury-parkview/wp-content/uploads/2018/12/tab5.jpg 1024w, http://mauweb.monamedia.net/luxury-parkview/wp-content/uploads/2018/12/tab5-300x172.jpg 300w, http://mauweb.monamedia.net/luxury-parkview/wp-content/uploads/2018/12/tab5-768x441.jpg 768w, http://mauweb.monamedia.net/luxury-parkview/wp-content/uploads/2018/12/tab5-600x345.jpg 600w"
-                                                     sizes="(max-width: 1024px) 100vw, 1024px"/>
-                                            </div>
-
-                                            <style scope="scope">
-
-                                                #image_1684944867 {
-                                                    width: 100%;
-                                                }
-                                            </style>
-                                        </div>
-
-                                    </div>
-                                    <div class="panel entry-content" id="tab_căn-06---70,22m2">
-                                        <div class="img has-hover x md-x lg-x y md-y lg-y" id="image_165518746">
-                                            <div class="img-inner dark">
-                                                <img width="1024" height="590"
-                                                     src="wp-content/uploads/2018/12/tab6.jpg"
-                                                     class="attachment-original size-original" alt=""
-                                                     srcset="http://mauweb.monamedia.net/luxury-parkview/wp-content/uploads/2018/12/tab6.jpg 1024w, http://mauweb.monamedia.net/luxury-parkview/wp-content/uploads/2018/12/tab6-300x173.jpg 300w, http://mauweb.monamedia.net/luxury-parkview/wp-content/uploads/2018/12/tab6-768x443.jpg 768w, http://mauweb.monamedia.net/luxury-parkview/wp-content/uploads/2018/12/tab6-600x346.jpg 600w"
-                                                     sizes="(max-width: 1024px) 100vw, 1024px"/>
-                                            </div>
-
-                                            <style scope="scope">
-
-                                                #image_165518746 {
-                                                    width: 100%;
-                                                }
-                                            </style>
-                                        </div>
-
-                                    </div>
-                                    <div class="panel entry-content" id="tab_căn-08---69,98m2">
-                                        <div class="img has-hover x md-x lg-x y md-y lg-y" id="image_1509780006">
-                                            <div class="img-inner dark">
-                                                <img width="1024" height="587"
-                                                     src="wp-content/uploads/2018/12/tab7.jpg"
-                                                     class="attachment-original size-original" alt=""
-                                                     srcset="http://mauweb.monamedia.net/luxury-parkview/wp-content/uploads/2018/12/tab7.jpg 1024w, http://mauweb.monamedia.net/luxury-parkview/wp-content/uploads/2018/12/tab7-300x172.jpg 300w, http://mauweb.monamedia.net/luxury-parkview/wp-content/uploads/2018/12/tab7-768x440.jpg 768w, http://mauweb.monamedia.net/luxury-parkview/wp-content/uploads/2018/12/tab7-600x344.jpg 600w"
-                                                     sizes="(max-width: 1024px) 100vw, 1024px"/>
-                                            </div>
-
-                                            <style scope="scope">
-
-                                                #image_1509780006 {
-                                                    width: 100%;
-                                                }
-                                            </style>
-                                        </div>
-
-                                    </div>
-                                    <div class="panel entry-content" id="tab_căn-09---106,6m2">
-                                        <div class="img has-hover x md-x lg-x y md-y lg-y" id="image_2003855702">
-                                            <div class="img-inner dark">
-                                                <img width="1024" height="590"
-                                                     src="wp-content/uploads/2018/12/tab8.jpg"
-                                                     class="attachment-original size-original" alt=""
-                                                     srcset="http://mauweb.monamedia.net/luxury-parkview/wp-content/uploads/2018/12/tab8.jpg 1024w, http://mauweb.monamedia.net/luxury-parkview/wp-content/uploads/2018/12/tab8-300x173.jpg 300w, http://mauweb.monamedia.net/luxury-parkview/wp-content/uploads/2018/12/tab8-768x443.jpg 768w, http://mauweb.monamedia.net/luxury-parkview/wp-content/uploads/2018/12/tab8-600x346.jpg 600w"
-                                                     sizes="(max-width: 1024px) 100vw, 1024px"/>
-                                            </div>
-
-                                            <style scope="scope">
-
-                                                #image_2003855702 {
-                                                    width: 100%;
-                                                }
-                                            </style>
-                                        </div>
-
-                                    </div>
                                 </div>
                             </div>
-                            <div class="gap-element" style="display:block; height:auto; padding-top:30px"
-                                 class="clearfix"></div>
-                            <p><span style="font-size: 100%;">Các loại căn hộ từ 2 – 4 phòng ngủ với các loại diện tích từ 63,91 – 131.21m2, tất cả các phòng chức năng trong căn hộ tại dự án Mona Park View Cầu Giấy đều có khả năng lấy ánh sáng và không khí tự nhiên rất tốt. Được chú trọng về phong thủy nên con người sống trong các căn hộ tại đây sẽ có được sức khỏe tốt, vượng khí tài lộc mang đến cho quý cư dân. </span>
-                            </p>
-                            <p><span style="font-size: 100%;">Căn hộ tại Chung cư Mona Park View được thiết kế hiện đại mang phong cách khách sạn 5*, các phòng chức năng trong căn hộ được bố trí thông minh nhằm tối ưu công năng sử dụng cho căn hộ. Mỗi căn hộ tại Mona Park View được bố trí tới 2 Logia nhằm đảm bảo tối đa không gian ánh sáng và gió tự nhiên tràn ngập vào trong căn hộ.</span>
-                            </p>
+                            <div class="gap-element clearfix" style="display:block; height:auto; padding-top:30px"></div>
                         </div>
                     </div>
                 </div>
@@ -1327,12 +936,8 @@
                 <div class="row" id="row-1081180551">
                     <div class="col small-12 large-12">
                         <div class="col-inner text-center dark">
-                            <h1><span style="font-size: 130%;">Khám phá căn hộ với VR TOUR</span></h1>
-                            <p>Do sở hữu vị trí thoáng đạt nên phần lớn các căn hộ tại Chung cư Mona Park View Cầu
-                                Giấy đều có thể phóng được tầm view ra xa và để hít hà không khí trong lành xanh mát
-                                từ các công viên lớn xung quanh mang lại. Sống tại Mona Park View quý khách như được
-                                trở về với một nơi mà ở đó cuộc sống sẽ được hòa quyện vào cùng với thiên nhiên để
-                                được tái tạo lại sức lạo động sau những giờ làm việc căng thẳng.</p>
+                            <h1><span style="font-size: 130%;">Đăng ký tham quan và nhận báo giá</span></h1>
+                            <p> Tìm kiếm một căn hộ cao cấp ở Hà Nội không khó, nhưng để chọn lựa một ngôi nhà mà mọi tiện ích được đáp ứng và đạt chuẩn sống cao vẫn luôn là mối băn khoăn với những cư dân hiện đại.</p>
                             <a class="button white is-outline" style="border-radius:99px;">
                                 <span>Xem ngay</span>
                             </a>
@@ -1366,229 +971,6 @@
             </style>
         </section>
 
-        <section class="section sec_thu_vien hide-for-small" id="section_653996029">
-            <div class="bg section-bg fill bg-fill  ">
-
-
-            </div><!-- .section-bg -->
-
-            <div class="section-content relative">
-
-                <div class="gap-element" style="display:block; height:auto; padding-top:60px"
-                     class="clearfix"></div>
-                <div class="row" id="row-1029960896">
-                    <div class="col small-12 large-12">
-                        <div class="col-inner text-center">
-                            <h1><span style="font-size: 130%;">Thư viện hình ảnh</span></h1>
-                            <p>Được thiết kế chăm chút và tỉ mỷ, Dự án Mona Park View hiện diện như một bông hoa
-                                điểm nhấn giữa cả quận Cầu Giấy. Ngay trên thiết kế mặt đứng của công trình, dưới
-                                những nét hình học đơn giản mà thanh thoát tạo điểm nhấn của dự án.</p>
-
-
-                            <div
-                                class="row large-columns-4 medium-columns- small-columns-2 row-full-width slider row-slider slider-nav-simple slider-nav-outside slider-nav-push"
-                                data-flickity-options='{"imagesLoaded": true, "groupCells": "100%", "dragThreshold" : 5, "cellAlign": "left","wrapAround": true,"prevNextButtons": true,"percentPosition": true,"pageDots": false, "rightToLeft": false, "autoPlay" : false}'>
-
-                                <div class="gallery-col col">
-                                    <div class="col-inner">
-                                        <a class="image-lightbox lightbox-gallery"
-                                           href="wp-content/uploads/2018/12/gall1.jpg" title="">
-                                            <div class="box has-hover gallery-box box-normal">
-                                                <div class="box-image">
-                                                    <img width="800" height="500"
-                                                         src="wp-content/uploads/2018/12/gall1.jpg"
-                                                         class="attachment-original size-original" alt=""
-                                                         ids="570,571,572,573,574,575,576,577" style="normal"
-                                                         type="slider" width="full-width" slider_nav_style="simple"
-                                                         slider_nav_position="outside" image_size="original"
-                                                         text_color="dark" text_padding="0px 0px 0 0px"
-                                                         srcset="http://mauweb.monamedia.net/luxury-parkview/wp-content/uploads/2018/12/gall1.jpg 800w, http://mauweb.monamedia.net/luxury-parkview/wp-content/uploads/2018/12/gall1-300x188.jpg 300w, http://mauweb.monamedia.net/luxury-parkview/wp-content/uploads/2018/12/gall1-768x480.jpg 768w, http://mauweb.monamedia.net/luxury-parkview/wp-content/uploads/2018/12/gall1-600x375.jpg 600w"
-                                                         sizes="(max-width: 800px) 100vw, 800px"/></div>
-                                                <!-- .image -->
-                                                <div class="box-text text-left dark" style="padding:0px 0px 0 0px;">
-                                                    <p></p>
-                                                </div><!-- .text -->
-                                            </div><!-- .box -->
-                                        </a></div><!-- .col-inner -->
-                                </div><!-- .col -->
-                                <div class="gallery-col col">
-                                    <div class="col-inner">
-                                        <a class="image-lightbox lightbox-gallery"
-                                           href="wp-content/uploads/2018/12/gall2.jpg" title="">
-                                            <div class="box has-hover gallery-box box-normal">
-                                                <div class="box-image">
-                                                    <img width="800" height="500"
-                                                         src="wp-content/uploads/2018/12/gall2.jpg"
-                                                         class="attachment-original size-original" alt=""
-                                                         ids="570,571,572,573,574,575,576,577" style="normal"
-                                                         type="slider" width="full-width" slider_nav_style="simple"
-                                                         slider_nav_position="outside" image_size="original"
-                                                         text_color="dark" text_padding="0px 0px 0 0px"
-                                                         srcset="http://mauweb.monamedia.net/luxury-parkview/wp-content/uploads/2018/12/gall2.jpg 800w, http://mauweb.monamedia.net/luxury-parkview/wp-content/uploads/2018/12/gall2-300x188.jpg 300w, http://mauweb.monamedia.net/luxury-parkview/wp-content/uploads/2018/12/gall2-768x480.jpg 768w, http://mauweb.monamedia.net/luxury-parkview/wp-content/uploads/2018/12/gall2-600x375.jpg 600w"
-                                                         sizes="(max-width: 800px) 100vw, 800px"/></div>
-                                                <!-- .image -->
-                                                <div class="box-text text-left dark" style="padding:0px 0px 0 0px;">
-                                                    <p></p>
-                                                </div><!-- .text -->
-                                            </div><!-- .box -->
-                                        </a></div><!-- .col-inner -->
-                                </div><!-- .col -->
-                                <div class="gallery-col col">
-                                    <div class="col-inner">
-                                        <a class="image-lightbox lightbox-gallery"
-                                           href="wp-content/uploads/2018/12/gall3.jpg" title="">
-                                            <div class="box has-hover gallery-box box-normal">
-                                                <div class="box-image">
-                                                    <img width="800" height="500"
-                                                         src="wp-content/uploads/2018/12/gall3.jpg"
-                                                         class="attachment-original size-original" alt=""
-                                                         ids="570,571,572,573,574,575,576,577" style="normal"
-                                                         type="slider" width="full-width" slider_nav_style="simple"
-                                                         slider_nav_position="outside" image_size="original"
-                                                         text_color="dark" text_padding="0px 0px 0 0px"
-                                                         srcset="http://mauweb.monamedia.net/luxury-parkview/wp-content/uploads/2018/12/gall3.jpg 800w, http://mauweb.monamedia.net/luxury-parkview/wp-content/uploads/2018/12/gall3-300x188.jpg 300w, http://mauweb.monamedia.net/luxury-parkview/wp-content/uploads/2018/12/gall3-768x480.jpg 768w, http://mauweb.monamedia.net/luxury-parkview/wp-content/uploads/2018/12/gall3-600x375.jpg 600w"
-                                                         sizes="(max-width: 800px) 100vw, 800px"/></div>
-                                                <!-- .image -->
-                                                <div class="box-text text-left dark" style="padding:0px 0px 0 0px;">
-                                                    <p></p>
-                                                </div><!-- .text -->
-                                            </div><!-- .box -->
-                                        </a></div><!-- .col-inner -->
-                                </div><!-- .col -->
-                                <div class="gallery-col col">
-                                    <div class="col-inner">
-                                        <a class="image-lightbox lightbox-gallery"
-                                           href="wp-content/uploads/2018/12/gall4.jpg" title="">
-                                            <div class="box has-hover gallery-box box-normal">
-                                                <div class="box-image">
-                                                    <img width="284" height="177"
-                                                         src="wp-content/uploads/2018/12/gall4.jpg"
-                                                         class="attachment-original size-original" alt=""
-                                                         ids="570,571,572,573,574,575,576,577" style="normal"
-                                                         type="slider" width="full-width" slider_nav_style="simple"
-                                                         slider_nav_position="outside" image_size="original"
-                                                         text_color="dark" text_padding="0px 0px 0 0px"/></div>
-                                                <!-- .image -->
-                                                <div class="box-text text-left dark" style="padding:0px 0px 0 0px;">
-                                                    <p></p>
-                                                </div><!-- .text -->
-                                            </div><!-- .box -->
-                                        </a></div><!-- .col-inner -->
-                                </div><!-- .col -->
-                                <div class="gallery-col col">
-                                    <div class="col-inner">
-                                        <a class="image-lightbox lightbox-gallery"
-                                           href="wp-content/uploads/2018/12/gall5.jpg" title="">
-                                            <div class="box has-hover gallery-box box-normal">
-                                                <div class="box-image">
-                                                    <img width="800" height="500"
-                                                         src="wp-content/uploads/2018/12/gall5.jpg"
-                                                         class="attachment-original size-original" alt=""
-                                                         ids="570,571,572,573,574,575,576,577" style="normal"
-                                                         type="slider" width="full-width" slider_nav_style="simple"
-                                                         slider_nav_position="outside" image_size="original"
-                                                         text_color="dark" text_padding="0px 0px 0 0px"
-                                                         srcset="http://mauweb.monamedia.net/luxury-parkview/wp-content/uploads/2018/12/gall5.jpg 800w, http://mauweb.monamedia.net/luxury-parkview/wp-content/uploads/2018/12/gall5-300x188.jpg 300w, http://mauweb.monamedia.net/luxury-parkview/wp-content/uploads/2018/12/gall5-768x480.jpg 768w, http://mauweb.monamedia.net/luxury-parkview/wp-content/uploads/2018/12/gall5-600x375.jpg 600w"
-                                                         sizes="(max-width: 800px) 100vw, 800px"/></div>
-                                                <!-- .image -->
-                                                <div class="box-text text-left dark" style="padding:0px 0px 0 0px;">
-                                                    <p></p>
-                                                </div><!-- .text -->
-                                            </div><!-- .box -->
-                                        </a></div><!-- .col-inner -->
-                                </div><!-- .col -->
-                                <div class="gallery-col col">
-                                    <div class="col-inner">
-                                        <a class="image-lightbox lightbox-gallery"
-                                           href="wp-content/uploads/2018/12/gall6.jpg" title="">
-                                            <div class="box has-hover gallery-box box-normal">
-                                                <div class="box-image">
-                                                    <img width="800" height="500"
-                                                         src="wp-content/uploads/2018/12/gall6.jpg"
-                                                         class="attachment-original size-original" alt=""
-                                                         ids="570,571,572,573,574,575,576,577" style="normal"
-                                                         type="slider" width="full-width" slider_nav_style="simple"
-                                                         slider_nav_position="outside" image_size="original"
-                                                         text_color="dark" text_padding="0px 0px 0 0px"
-                                                         srcset="http://mauweb.monamedia.net/luxury-parkview/wp-content/uploads/2018/12/gall6.jpg 800w, http://mauweb.monamedia.net/luxury-parkview/wp-content/uploads/2018/12/gall6-300x188.jpg 300w, http://mauweb.monamedia.net/luxury-parkview/wp-content/uploads/2018/12/gall6-768x480.jpg 768w, http://mauweb.monamedia.net/luxury-parkview/wp-content/uploads/2018/12/gall6-600x375.jpg 600w"
-                                                         sizes="(max-width: 800px) 100vw, 800px"/></div>
-                                                <!-- .image -->
-                                                <div class="box-text text-left dark" style="padding:0px 0px 0 0px;">
-                                                    <p></p>
-                                                </div><!-- .text -->
-                                            </div><!-- .box -->
-                                        </a></div><!-- .col-inner -->
-                                </div><!-- .col -->
-                                <div class="gallery-col col">
-                                    <div class="col-inner">
-                                        <a class="image-lightbox lightbox-gallery"
-                                           href="wp-content/uploads/2018/12/gall7.jpg" title="">
-                                            <div class="box has-hover gallery-box box-normal">
-                                                <div class="box-image">
-                                                    <img width="800" height="500"
-                                                         src="wp-content/uploads/2018/12/gall7.jpg"
-                                                         class="attachment-original size-original" alt=""
-                                                         ids="570,571,572,573,574,575,576,577" style="normal"
-                                                         type="slider" width="full-width" slider_nav_style="simple"
-                                                         slider_nav_position="outside" image_size="original"
-                                                         text_color="dark" text_padding="0px 0px 0 0px"
-                                                         srcset="http://mauweb.monamedia.net/luxury-parkview/wp-content/uploads/2018/12/gall7.jpg 800w, http://mauweb.monamedia.net/luxury-parkview/wp-content/uploads/2018/12/gall7-300x188.jpg 300w, http://mauweb.monamedia.net/luxury-parkview/wp-content/uploads/2018/12/gall7-768x480.jpg 768w, http://mauweb.monamedia.net/luxury-parkview/wp-content/uploads/2018/12/gall7-600x375.jpg 600w"
-                                                         sizes="(max-width: 800px) 100vw, 800px"/></div>
-                                                <!-- .image -->
-                                                <div class="box-text text-left dark" style="padding:0px 0px 0 0px;">
-                                                    <p></p>
-                                                </div><!-- .text -->
-                                            </div><!-- .box -->
-                                        </a></div><!-- .col-inner -->
-                                </div><!-- .col -->
-                                <div class="gallery-col col">
-                                    <div class="col-inner">
-                                        <a class="image-lightbox lightbox-gallery"
-                                           href="wp-content/uploads/2018/12/gall8.jpg" title="">
-                                            <div class="box has-hover gallery-box box-normal">
-                                                <div class="box-image">
-                                                    <img width="800" height="500"
-                                                         src="wp-content/uploads/2018/12/gall8.jpg"
-                                                         class="attachment-original size-original" alt=""
-                                                         ids="570,571,572,573,574,575,576,577" style="normal"
-                                                         type="slider" width="full-width" slider_nav_style="simple"
-                                                         slider_nav_position="outside" image_size="original"
-                                                         text_color="dark" text_padding="0px 0px 0 0px"
-                                                         srcset="http://mauweb.monamedia.net/luxury-parkview/wp-content/uploads/2018/12/gall8.jpg 800w, http://mauweb.monamedia.net/luxury-parkview/wp-content/uploads/2018/12/gall8-300x188.jpg 300w, http://mauweb.monamedia.net/luxury-parkview/wp-content/uploads/2018/12/gall8-768x480.jpg 768w, http://mauweb.monamedia.net/luxury-parkview/wp-content/uploads/2018/12/gall8-600x375.jpg 600w"
-                                                         sizes="(max-width: 800px) 100vw, 800px"/></div>
-                                                <!-- .image -->
-                                                <div class="box-text text-left dark" style="padding:0px 0px 0 0px;">
-                                                    <p></p>
-                                                </div><!-- .text -->
-                                            </div><!-- .box -->
-                                        </a></div><!-- .col-inner -->
-                                </div><!-- .col -->
-                            </div>
-                            <p>Chung cư Mona Park View tạo nên một môi trường sống lý tưởng, gần gũi với thiên
-                                nhiên. Tạo môi trường sống lý tưởng với tối thiểu 2/3 diện tích dành cho quảng
-                                trường, cây xanh, đài phun nước. Khu vực quảng trường khu vui chơi giải trí chung…
-                                Chung cư Mona Park View Cầu Giấy tạo nên một môi trường sống lý tưởng, gần gũi với
-                                thiên nhiên..</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="gap-element" style="display:block; height:auto; padding-top:20px"
-                     class="clearfix"></div>
-            </div><!-- .section-content -->
-
-
-            <style scope="scope">
-
-                #section_653996029 {
-                    padding-top: 0px;
-                    padding-bottom: 0px;
-                }
-
-                #section_653996029 .section-bg.bg-loaded {
-                    background-image: url(wp-content/uploads/2018/12/bg8934.jpg);
-                }
-            </style>
-        </section>
 
         <section class="section sec_news hide-for-small" id="section_851447186">
             <div class="bg section-bg fill bg-fill  bg-loaded">
