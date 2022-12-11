@@ -61,15 +61,9 @@
                                 style="color: #ffffff;">hoặc ĐĂNG KÝ THAM QUAN và NHẬN BÁO GIÁ</span></p>
                         <div role="form" class="wpcf7" id="wpcf7-f43-o2" lang="vi" dir="ltr">
                             <div class="screen-reader-response"></div>
-                            <form action="https://mauweb.monamedia.net/luxury-parkview/#wpcf7-f43-o2" method="post"
+                            <form action="{{route('contact.store')}}" method="post"
                                   class="wpcf7-form" novalidate="novalidate">
-                                <div style="display: none;">
-                                    <input type="hidden" name="_wpcf7" value="43"/>
-                                    <input type="hidden" name="_wpcf7_version" value="5.0.5"/>
-                                    <input type="hidden" name="_wpcf7_locale" value="vi"/>
-                                    <input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f43-o2"/>
-                                    <input type="hidden" name="_wpcf7_container_post" value="0"/>
-                                </div>
+
                                 <div class="form-ct clear">
                                     <div class="form-row w50">
                                             <span class="wpcf7-form-control-wrap text-name"><input type="text"

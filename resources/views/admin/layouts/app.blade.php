@@ -63,6 +63,10 @@
 </script>
 @include('ckfinder::setup')
 @stack('scripts')
-@stack('scripts')
+<style>
+    #cke_1_contents{
+        height: 1000px;
+    }
+</style>
 </body>
 </html>

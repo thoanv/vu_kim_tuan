@@ -47,7 +47,7 @@
                 </div>
                 <div class="form-group mb-3 is-filled">
                     <label>Nội dung</label>
-                    <textarea  rows="5" cols="70" id="content" class="form-control content"
+                    <textarea rows="15" cols="70" id="content" class="form-control content"
                                name="content">{{old('content', $post['content'])}}</textarea>
                     @if ($errors->has('content'))
                         <div class="mt-1 notification-error">

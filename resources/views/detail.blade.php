@@ -18,7 +18,7 @@
                                 <div class="avatar">
                                     <img src="{{$post['avatar']}}" alt="{{$post['name']}}">
                                 </div>
-                                <div class="content" style="margin-top: 20px">
+                                <div class="content text-justify" style="margin-top: 20px; text-align: justify">
                                     {!! $post['content'] !!}
                                 </div>
 
