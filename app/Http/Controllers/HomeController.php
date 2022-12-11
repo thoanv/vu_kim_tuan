@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Post;
 use Illuminate\Http\Request;
 use App\Repositories\SlideRepository as SlideRepo;
 use App\Repositories\PostRepository as PostRepo;
@@ -60,9 +61,15 @@ class HomeController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show($id)
+    public function show($slug)
     {
-        //
+        $post = $this->postRepo->detail($slug);
+        if(!$post) return abort(404);
+        $relates = Post::where([['status', true], ['type', $post['type']], ['id', '<>', $post['id']]])->get();
+        return view('detail', [
+            'post' => $post,
+            'relates' => $relates
+        ]);
     }
 
     /**

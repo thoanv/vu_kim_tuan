@@ -35,4 +35,9 @@ class PostRepository extends AbstractRepository
     {
         return $this->model->where([['status', true], ['type', $tpe]])->take($take)->get();
     }
+
+    public function detail($slug)
+    {
+        return $this->model->where([['status', true], ['slug', $slug]])->first();
+    }
 }

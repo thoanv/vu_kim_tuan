@@ -18,6 +18,7 @@ use App\Http\Controllers\Ajax\AjaxController;
 */
 
 Route::get('/', [HomeController::class, 'index'])->name('home');
+Route::get('/{slug}', [HomeController::class, 'show'])->name('detail');
 Route::group(['prefix' => 'admin', 'middleware' => ['auth']], function(){
     Route::get('/information', [InformationController::class, 'edit'])->name('information.edit');
     Route::post('/information', [InformationController::class, 'update'])->name('information.update');

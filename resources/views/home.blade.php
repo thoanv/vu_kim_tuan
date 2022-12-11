@@ -3,6 +3,63 @@
 @section('content')
     <main id="main" class="">
         <div id="content" role="main" class="content-area">
+{{--            <section class="section sec_banner" id="section_385680832">--}}
+{{--                <div class="bg section-bg fill bg-fill  bg-loaded">--}}
+
+{{--                </div><!-- .section-bg -->--}}
+
+{{--                <div class="section-content relative">--}}
+
+{{--                    <div class="slider-wrapper relative " id="slider-1577291748">--}}
+{{--                        <div class="slider slider-nav-circle slider-nav-normal slider-nav-light slider-style-normal"--}}
+{{--                             data-flickity-options='{--}}
+{{--                                    "cellAlign": "center",--}}
+{{--                                    "imagesLoaded": true,--}}
+{{--                                    "lazyLoad": 1,--}}
+{{--                                    "freeScroll": false,--}}
+{{--                                    "wrapAround": true,--}}
+{{--                                    "autoPlay": 6000,--}}
+{{--                                    "pauseAutoPlayOnHover" : true,--}}
+{{--                                    "prevNextButtons": true,--}}
+{{--                                    "contain" : true,--}}
+{{--                                    "adaptiveHeight" : true,--}}
+{{--                                    "dragThreshold" : 10,--}}
+{{--                                    "percentPosition": true,--}}
+{{--                                    "pageDots": true,--}}
+{{--                                    "rightToLeft": false,--}}
+{{--                                    "draggable": true,--}}
+{{--                                    "selectedAttraction": 0.1,--}}
+{{--                                    "parallax" : 0,--}}
+{{--                                    "friction": 0.6        }'--}}
+{{--                        >--}}
+
+{{--                            @foreach($slides as $slide)--}}
+{{--                                <div class="banner has-hover bg-zoom"--}}
+{{--                                     style="background-image: url({!! $slide['avatar'] !!}); background-repeat: no-repeat; padding-top: 45%;">--}}
+{{--                                    <div class="banner-inner fill">--}}
+{{--                                        <div class="banner-bg fill">--}}
+{{--                                            <div class="bg fill bg-fill "></div>--}}
+{{--                                            <div class="overlay" style="background-color: rgba(0, 0, 0, 0.46);"></div>--}}
+{{--                                        </div><!-- bg-layers -->--}}
+{{--                                        <div class="banner-layers container">--}}
+{{--                                            <div class="fill banner-link"></div>--}}
+
+{{--                                        </div><!-- .banner-layers -->--}}
+{{--                                    </div><!-- .banner-inner -->--}}
+{{--                                </div><!-- .banner -->--}}
+{{--                            @endforeach--}}
+{{--                        </div>--}}
+{{--                        <div class="loading-spin dark large centered"></div>--}}
+{{--                    </div><!-- .ux-slider-wrapper -->--}}
+{{--                </div><!-- .section-content -->--}}
+{{--                <style scope="scope">--}}
+
+{{--                    #section_385680832 {--}}
+{{--                        padding-top: 0px;--}}
+{{--                        padding-bottom: 0px;--}}
+{{--                    }--}}
+{{--                </style>--}}
+{{--            </section>--}}
             <section class="section sec_banner" id="section_385680832">
                 <div class="bg section-bg fill bg-fill  bg-loaded">
 
@@ -33,23 +90,72 @@
                                     "friction": 0.6        }'
                         >
 
-                            @foreach($slides as $slide)
-                                <div class="banner has-hover bg-zoom"
-                                     style="background-image: url({!! $slide['avatar'] !!}); background-repeat: no-repeat; padding-top: 45%;">
-                                    <div class="banner-inner fill">
-                                        <div class="banner-bg fill">
-                                            <div class="bg fill bg-fill "></div>
-                                            <div class="overlay" style="background-color: rgba(0, 0, 0, 0.46);"></div>
-                                        </div><!-- bg-layers -->
-                                        <div class="banner-layers container">
-                                            <div class="fill banner-link"></div>
+                            @foreach($slides as $key => $slide)
+                            <div class="banner has-hover bg-zoom" id="banner-1067129818{{$key}}">
+                                <div class="banner-inner fill">
+                                    <div class="banner-bg fill">
+                                        <div class="bg fill bg-fill "></div>
+                                        <div class="overlay"></div>
+                                    </div><!-- bg-layers -->
+{{--                                    <div class="banner-layers container">--}}
+{{--                                        <div class="fill banner-link"></div>--}}
+{{--                                        <div id="text-box-273166983"--}}
+{{--                                             class="text-box banner-layer x50 md-x50 lg-x50 y50 md-y50 lg-y50 res-text">--}}
+{{--                                            <div data-animate="fadeInUp">--}}
+{{--                                                <div class="text dark">--}}
 
-                                        </div><!-- .banner-layers -->
-                                    </div><!-- .banner-inner -->
-                                </div><!-- .banner -->
+{{--                                                    <div class="text-inner text-center">--}}
+
+{{--                                                        <h4>Căn hộ cao cấp tại trung tâm Sài Gòn</h4>--}}
+{{--                                                        <h1>MONA PARK VIEW</h1>--}}
+{{--                                                        <p><span--}}
+{{--                                                                style="font-size: 130%;">Xứng đáng với đẳng cấp của bạn</span>--}}
+{{--                                                        </p>--}}
+{{--                                                    </div>--}}
+{{--                                                </div><!-- text-box-inner -->--}}
+{{--                                            </div>--}}
+{{--                                            <style scope="scope">--}}
+
+{{--                                                #text-box-273166983 {--}}
+{{--                                                    width: 90%;--}}
+{{--                                                }--}}
+
+{{--                                                #text-box-273166983 .text {--}}
+{{--                                                    font-size: 90%;--}}
+{{--                                                }--}}
+
+
+{{--                                                @media (min-width: 550px) {--}}
+
+{{--                                                    #text-box-273166983 .text {--}}
+{{--                                                        font-size: 100%;--}}
+{{--                                                    }--}}
+
+{{--                                                }--}}
+{{--                                            </style>--}}
+{{--                                        </div><!-- text-box -->--}}
+
+{{--                                    </div><!-- .banner-layers -->--}}
+                                </div><!-- .banner-inner -->
+
+
+                                <style scope="scope">
+
+                                    #banner-1067129818{{$key}} {
+                                        padding-top: 45%;
+                                    }
+
+                                    #banner-1067129818{{$key}} .bg.bg-loaded {
+                                        background-image: url({{$slide['avatar']}});
+                                    }
+
+                                    #banner-1067129818{{$key}} .overlay {
+                                        background-color: rgba(0, 0, 0, 0.1);
+                                    }
+                                </style>
+                            </div><!-- .banner -->
                             @endforeach
                         </div>
-                        <div class="loading-spin dark large centered"></div>
                     </div><!-- .ux-slider-wrapper -->
                 </div><!-- .section-content -->
                 <style scope="scope">
@@ -60,7 +166,6 @@
                     }
                 </style>
             </section>
-
             <section class="section sec_video" id="section_2111218366">
                 <div class="bg section-bg fill bg-fill  bg-loaded">
 
@@ -249,7 +354,7 @@
                                     @foreach($tienIchs as $ti)
                                         <div class="gallery-col col has-shadow">
                                             <div class="col-inner">
-                                                <a href="http://mauweb.monamedia.net/canhocitialto/mona-media-cong-bo-mo-ban-can-ho-citi-land-quan-2/"
+                                                <a href="{{route('detail', $ti['slug'])}}"
                                                    class="plain">
                                                     <div class="box box-normal box-text-bottom box-blog-post has-hover">
                                                         <div class="box-image">
@@ -269,7 +374,7 @@
                                                                 <p class="from_the_blog_excerpt ">{{$ti['description']}}</p>
 
                                                                 <button
-                                                                    href="http://mauweb.monamedia.net/canhocitialto/mona-media-cong-bo-mo-ban-can-ho-citi-land-quan-2/"
+                                                                    href="{{route('detail', $ti['slug'])}}"
                                                                     class="button  is-outline is-small mb-0">
                                                                     Chi tiết
                                                                 </button>
@@ -720,7 +825,7 @@
                                     @foreach($posts as $post)
                                         <div class="col post-item">
                                             <div class="col-inner">
-                                                <a href="mona-park-view-cau-giay-co-gi-hap-dan-khach-hang/index.html"
+                                                <a href="{{route('detail', $post['slug'])}}"
                                                    class="plain">
                                                     <div class="box box-normal box-text-bottom box-blog-post has-hover">
                                                         <div class="box-image">
@@ -762,6 +867,7 @@
                     }
                 </style>
             </section>
+
         </div>
     </main><!-- #main -->
 @endsection
