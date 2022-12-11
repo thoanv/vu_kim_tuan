@@ -1,5 +1,5 @@
 @extends('layouts.app')
-@section('title', 'Thông tin chung')
+@section('title', 'Chung cư The Nine - Số 9 Phạm Văn Đồng')
 @section('content')
     <main id="main" class="">
         <div id="content" role="main" class="content-area">

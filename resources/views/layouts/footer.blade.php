@@ -24,7 +24,8 @@
                         <p><span
                                 style="color: #ffffff;">Địa chỉ: {{$info['address']}}</span>
                         </p>
-                        <p><span style="color: #ffffff;">Hotline: <a href="tel:{{$info['phone']}}">{{$info['phone']}}</a></span>
+                        <p><span style="color: #ffffff;">Hotline: <a
+                                    href="tel:{{$info['phone']}}">{{$info['phone']}}</a></span>
                         </p>
                         <p><span style="color: #ffffff;">Email: <a
                                     href="mailto:{{$info['email']}}"><span
@@ -34,8 +35,10 @@
                             <div class="img-inner dark">
                                 <div class="logo__site">
                                     <div class="logo__site--main">
-                                        <a href="http://127.0.0.1:8000" class="custom-logo-link" rel="home" aria-current="page">
-                                            <img src="/userfiles/images/logo/logo.png" class="custom-logo" alt="Logo" decoding="async">
+                                        <a href="http://127.0.0.1:8000" class="custom-logo-link" rel="home"
+                                           aria-current="page">
+                                            <img src="/userfiles/images/logo/logo.png" class="custom-logo" alt="Logo"
+                                                 decoding="async">
                                         </a>
                                     </div>
                                 </div>
@@ -66,44 +69,48 @@
 
                                 <div class="form-ct clear">
                                     <div class="form-row w50">
-                                            <span class="wpcf7-form-control-wrap text-name"><input type="text"
-                                                                                                   name="text-name"
-                                                                                                   value="" size="40"
-                                                                                                   class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form_lien_he"
-                                                                                                   id="text-name"
-                                                                                                   aria-required="true"
-                                                                                                   aria-invalid="false"
-                                                                                                   placeholder="Họ và tên"/></span>
+                                            <span class="wpcf7-form-control-wrap text-name">
+                                                <input type="text"
+                                                   name="text-name"
+                                                   value="" size="40"
+                                                   class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form_lien_he"
+                                                   id="text-name"
+                                                   aria-required="true"
+                                                   aria-invalid="false"
+                                                   placeholder="Họ và tên"/></span>
                                     </div>
                                     <div class="form-row w50">
-                                            <span class="wpcf7-form-control-wrap email-contact"><input type="email"
-                                                                                                       name="email-contact"
-                                                                                                       value=""
-                                                                                                       size="40"
-                                                                                                       class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email form_lien_he"
-                                                                                                       id="email-contact"
-                                                                                                       aria-required="true"
-                                                                                                       aria-invalid="false"
-                                                                                                       placeholder="Email"/></span>
+                                            <span class="wpcf7-form-control-wrap email-contact">
+                                                <input type="email"
+                                                   name="email-contact"
+                                                   value=""
+                                                   size="40"
+                                                   class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email form_lien_he"
+                                                   id="email-contact"
+                                                   aria-required="true"
+                                                   aria-invalid="false"
+                                                   placeholder="Email"/></span>
                                     </div>
                                     <div class="form-row w50">
-                                            <span class="wpcf7-form-control-wrap tel-contact"><input type="tel"
-                                                                                                     name="tel-contact"
-                                                                                                     value="" size="40"
-                                                                                                     class="wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-required wpcf7-validates-as-tel form_lien_he"
-                                                                                                     id="tel-contact"
-                                                                                                     aria-required="true"
-                                                                                                     aria-invalid="false"
-                                                                                                     placeholder="Số điện thoại"/></span>
+                                            <span class="wpcf7-form-control-wrap tel-contact">
+                                                <input type="number"
+                                                     name="tel-contact"
+                                                     value="" size="40"
+                                                     class="wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-required wpcf7-validates-as-tel form_lien_he"
+                                                     id="phoneNumber"
+                                                     aria-required="true"
+                                                     aria-invalid="false"
+                                                     placeholder="Số điện thoại"/></span>
                                     </div>
                                     <div class="form-row w50">
-                                            <span class="wpcf7-form-control-wrap text-address"><input type="text"
-                                                                                                      name="text-address"
-                                                                                                      value="" size="40"
-                                                                                                      class="wpcf7-form-control wpcf7-text form_lien_he"
-                                                                                                      id="text-address"
-                                                                                                      aria-invalid="false"
-                                                                                                      placeholder="Địa chỉ"/></span>
+                                            <span class="wpcf7-form-control-wrap text-address">
+                                                <input type="text"
+                                                  name="text-address"
+                                                  value="" size="40"
+                                                  class="wpcf7-form-control wpcf7-text form_lien_he"
+                                                  id="text-address"
+                                                  aria-invalid="false"
+                                                  placeholder="Địa chỉ"/></span>
                                     </div>
                                     <div class="form-row">
                                             <span class="wpcf7-form-control-wrap textarea-noidung"><textarea
