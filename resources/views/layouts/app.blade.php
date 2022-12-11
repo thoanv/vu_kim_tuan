@@ -68,9 +68,17 @@
     <link rel="stylesheet" href="{{asset('css/style.css')}}">
     <script type='text/javascript' src="wp-includes/js/jquery/jqueryb8ff.js?ver=1.12.4"></script>
     <script type='text/javascript' src="wp-includes/js/jquery/jquery-migrate.min330a.js?ver=1.4.1"></script>
-    <link rel="canonical" href="index.html"/>
-    <link rel='shortlink' href="index.html"/>
 
+    <meta property="og:locale" content="vi_VN"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:title" content="@yield('company')"/>
+    <meta property="og:url" content="@yield('canonical', route('home'))"/>
+    <meta property="article:modified_time" content=""/>
+    <meta property="og:image" content="@yield('image', $info['thumbnail'])"/>
+    <meta property="og:image:width" content="1200"/>
+    <meta property="og:image:height" content="630"/>
+
+    <meta name="twitter:card" content="summary_large_image"/>
 
 </head>
 <body class="home page-template page-template-page-blank page-template-page-blank-php page page-id-16 woocommerce-no-js lightbox nav-dropdown-has-arrow">
@@ -168,9 +176,9 @@
     </div>
 </a>
 <!-- FB Messenger -->
-<div id="fbMsg">
-    <img data-remodal-target="fb-messenger" src="wp-content/plugins/fb-messenger/images/fb-messenger.png">
-</div>
+{{--<div id="fbMsg">--}}
+{{--    <img data-remodal-target="fb-messenger" src="wp-content/plugins/fb-messenger/images/fb-messenger.png">--}}
+{{--</div>--}}
 
 <div class="remodal" data-remodal-id="fb-messenger">
     <div class="fb-page" data-tabs="messages" data-href="" data-width="310" data-height="330" data-href=""
@@ -180,7 +188,22 @@
         </div>
     </div>
 </div>
-
+<div class="hotline-phone-ring-wrap">
+    <div class="hotline-phone-ring">
+        <div class="hotline-phone-ring-circle"></div>
+        <div class="hotline-phone-ring-circle-fill"></div>
+        <div class="hotline-phone-ring-img-circle">
+            <a href="tel:{{$info['phone']}}" class="pps-btn-img">
+                <img src="/images/icon-call-nh.png" alt="Gọi điện thoại" width="50">
+            </a>
+        </div>
+    </div>
+    <div class="hotline-bar">
+        <a href="tel:{{$info['phone']}}">
+            <span class="text-hotline">{{$info['phone']}}</span>
+        </a>
+    </div>
+</div>
 <!-- End FB Messenger -->
 
 <script type='text/javascript' src="wp-content/plugins/contact-form-7/includes/js/scripts1748.js?ver=5.0.5"></script>

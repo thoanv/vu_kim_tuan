@@ -24,7 +24,7 @@ class PostController extends Controller
      */
     public function index(Request $request)
     {
-        $posts = [];
+        $posts = $this->postRepo->getData($request);
         return view($this->view.'.index', [
             'posts' => $posts,
             'request'  => $request
@@ -84,9 +84,12 @@ class PostController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function edit($id)
+    public function edit(Post $post)
     {
-        //
+        return view($this->view.'.update', [
+            'post' => $post,
+            'view' => $this->view,
+        ]);
     }
 
     /**
@@ -98,7 +101,16 @@ class PostController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        $request->validate([
+            'name' => 'required',
+            'avatar' => 'required',
+            'description' => 'required',
+            'content' => 'required',
+        ]);
+        $data = $request->only('name', 'avatar', 'description', 'content', 'type');
+        $data['slug'] = Str::slug($request->name).'-'.$id;
+        $this->postRepo->update($data, $id);
+        return redirect(route($this->route.'.index'))->with('success',  'Thêm thành công');
     }
 
     /**
@@ -107,8 +119,9 @@ class PostController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function destroy($id)
+    public function destroy(Post $post)
     {
-        //
+        $post->delete();
+        return redirect()->back()->with('success','Xóa thành công');
     }
 }

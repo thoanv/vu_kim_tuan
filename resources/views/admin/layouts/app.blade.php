@@ -24,6 +24,7 @@
 <body class="g-sidenav-show  bg-gray-200">
 @include('admin.layouts.navigation')
 @yield('content')
+
 <script src="{{asset('assets/js/jquery-3.6.1.min.js')}}"></script>
 <script src="{{asset('assets/js/core/popper.min.js')}}"></script>
 <script src="{{asset('assets/js/core/bootstrap.min.js')}}"></script>
@@ -40,8 +41,7 @@
         Scrollbar.init(document.querySelector('#sidenav-scrollbar'), options);
     }
 </script>
-<!-- Github buttons -->
-<script async defer src="https://buttons.github.io/buttons.js"></script>
+
 <!-- Control Center for Material Dashboard: parallax effects, scripts for the example pages etc -->
 <script src="{{asset('assets/js/material-dashboard.min.js')}}"></script>
 <script src="{{asset('assets/js/script.js')}}"></script>

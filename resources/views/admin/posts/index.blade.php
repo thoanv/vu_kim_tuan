@@ -10,6 +10,7 @@
                 </nav>
             </div>
         </nav>
+
         <div class="container py-1">
             <div class="row mb-4">
                 <div class="col-lg-12 col-md-12 mb-md-0 mb-4">
@@ -23,9 +24,9 @@
                                 <div class="form-group row mb-4">
                                     <div class="col-lg-3">
                                         <div class="form-group mb-3">
-                                            <label>Tên phòng ban</label>
-                                            <input type="text" class="form-control" name="name" value=""
-                                                   placeholder="Nhập tên phòng ban...">
+                                            <label>Từ khóa</label>
+                                            <input type="text" class="form-control" name="name" value="{{Request::get('name')}}"
+                                                   placeholder="Nhập từ khóa...">
                                         </div>
                                     </div>
                                     <div class="col-lg-3">
@@ -33,11 +34,27 @@
                                             <label>Ẩn/Hiển thị</label>
                                             <select name="status" id="" class="form-control">
                                                 <option value="">Tất cả</option>
-                                                <option value="1">
+                                                <option
+                                                    {{(isset($request->status) && $request->status == 1)  ? 'selected' : ''}} value="1">
                                                     Hiển thị
                                                 </option>
-                                                <option value="0">
+                                                <option
+                                                    {{(isset($request->status) && $request->status == 0)  ? 'selected' : ''}}  value="0">
                                                     Ẩn
+                                                </option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="form-group mb-3">
+                                            <label>Thể loại</label>
+                                            <select name="type" id="" class="form-control">
+                                                <option value="">Tất cả</option>
+                                                <option {{(isset($request->type) && $request->type === 'bai_viet' )  ? 'selected' : ''}} value="bai_viet">
+                                                    Bài viết & tin tức
+                                                </option>
+                                                <option {{(isset($request->type) && $request->type === 'tien_ich' )  ? 'selected' : ''}} value="tien_ich">
+                                                    Tiện ích sống động
                                                 </option>
                                             </select>
                                         </div>
@@ -55,7 +72,15 @@
                     </div>
                 </div>
             </div>
-            <div class="row mb-4">
+            @if (session('success'))
+                <div class="row notification-submit">
+                    <div class="col-lg-12">
+                        <div class="alert alert-success  text-white " role="alert">
+                            <strong>Thao tác !</strong> {{ session('success') }}!
+                        </div>
+                    </div>
+                </div>
+            @endif            <div class="row mb-4">
                 <div class="col-lg-12 col-md-12 mb-md-0 mb-4">
                     <div class="card">
                         <div class="card-header p-3 pb-0">
@@ -73,58 +98,81 @@
                                 <table class="table align-items-center mb-0">
                                     <thead>
                                     <tr>
-                                        <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">
-                                            STT
-                                        </th>
-                                        <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">
-                                            Tên phòng ban
-                                        </th>
-                                        <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 text-center">
-                                            SL Nhân viên
-                                        </th>
-                                        <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 text-center">
-                                            Thời gian thực hiện
-                                        </th>
-                                        <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2 text-center">
-                                            Trạng thái
-                                        </th>
-                                        <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">
-                                            Hành động
-                                        </th>
+                                        <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">STT</th>
+                                        <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Tên</th>
+                                        <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 text-center">Hình ảnh</th>
+                                        <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 text-center">Thể loại</th>
+                                        <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 text-center">Ngày đăng</th>
+                                        <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2 text-center">Trạng thái</th>
+                                        <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Hành động</th>
                                     </tr>
                                     </thead>
                                     <tbody>
+                                    @foreach($posts as $item)
+                                    <tr>
+                                        <td class="align-middle text-center text-sm">20</td>
+                                        <td>
+                                            <div class="d-flex px-2 py-1">
+                                                <div class="d-flex flex-column justify-content-center">
+                                                    <h6 class="mb-0 text-sm">{{$item['name']}}</h6>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td class="align-middle text-center text-sm">
+                                            <div class="text-center">
+                                                <img src="{{$item['avatar']}}" alt="" style="width: 200px;">
+                                            </div>
+                                        </td>
+                                        <td class="align-middle text-center text-sm">
+                                            @if($item['type'] === 'bai_viet')
+                                            <div class="btn btn-rounded btn-outline-success mb-0 me-2 btn-sm align-items-center justify-content-center">
+                                                Bài viết & tin tức
+                                            </div>
+                                            @else
+                                            <div class="btn btn-rounded btn-outline-success mb-0 me-2 btn-sm align-items-center justify-content-center">
+                                                Tiện ích sống động
+                                            </div>
+                                            @endif
+
+                                        </td>
+
+                                        <td class="align-middle text-center text-sm">
+                                            <div class="text-center">
+                                                15:40 08-12-2022
+                                            </div>
+                                        </td>
+                                        <td class="align-middle text-center text-sm">
+                                            <div class="form-check form-switch" style="display: inline-block">
+                                                <input class="form-check-input" name="my-checkbox" type="checkbox" data-id="{{$item['id']}}"
+                                                       data-api="{{route('enable-column')}}" data-table="posts"
+                                                       data-column="status"  {{ $item['status'] ? 'checked="checked"' : '' }}>
+                                            </div>
+                                        </td>
+
+                                        <td class="align-middle text-center text-sm">
+                                            <a href="{{route('posts.edit', $item)}}" class="btn btn-info btn-sm mb-0">Sửa</a>
+                                            <form class="d-inline-block" action="{{ route('posts.destroy', $item) }}" method="POST" >
+                                                @csrf
+                                                @method('DELETE')
+                                                <button type="submit" class="btn btn-primary btn-sm mb-0" onclick="return confirm('Bạn có muốn xóa không?')"> Xóa</button>
+                                            </form>
+                                        </td>
+                                    </tr>
+                                    @endforeach
                                     </tbody>
                                 </table>
                             </div>
-                            <div class="dataTables_empty"></div>
-                            <div class="notify">
-                                <h5>Không có dữ liệu</h5>
+                        </div>
+                        <hr class="dark horizontal my-0">
+                        @if(!count($posts))
+                            @include('admin.components.data-empty')
+                        @endif
+                        <div class="text-center m-3 d-flex">
+                            <div style="font-size: 12px">
+                                Tổng: {{ $posts->total() }} bản ghi
                             </div>
-                            <style>
-                                .dataTables_empty {
-                                    height: 200px !important;
-                                    padding-top: 25px !important;
-                                    padding-bottom: 180px !important;
-                                    text-align: left !important;
-                                    color: #777;
-                                    font-size: 15px;
-                                    background: url('/assets/img/table-no-data.png') no-repeat center;
-                                    background-size: auto 161px;
-                                }
-
-                                .notify {
-                                    text-align: center;
-                                    margin-bottom: 10px;
-                                }
-                            </style>
-                            <div class="text-center mt-3 d-flex">
-                                <div style="font-size: 12px">
-                                    Tổng: 0 bản ghi
-                                </div>
-                                <div class="float-end" style="margin-left: auto">
-
-                                </div>
+                            <div class="float-end" style="margin-left: auto">
+                                {{ $posts->links() }}
                             </div>
                         </div>
                     </div>

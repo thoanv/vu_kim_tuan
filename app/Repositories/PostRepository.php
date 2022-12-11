@@ -18,7 +18,9 @@ class PostRepository extends AbstractRepository
                 ->orWhere('phone', 'like', '%' . $request->name . '%')
                 ->orWhere('code', $request->name);
         }
-
+        if($request->type){
+            $query = $query->where('type', $request->type);
+        }
         if($request->status == 0 && $request->status !=''){
             $query = $query->where('status', false);
         }
@@ -29,4 +31,8 @@ class PostRepository extends AbstractRepository
         return $query->orderBy('id', 'DESC')->paginate(20);
     }
 
+    public function getPostByType($tpe = 'bai_viet', $take = 4)
+    {
+        return $this->model->where([['status', true], ['type', $tpe]])->take($take)->get();
+    }
 }

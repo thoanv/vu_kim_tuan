@@ -3,9 +3,19 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Repositories\SlideRepository as SlideRepo;
+use App\Repositories\PostRepository as PostRepo;
 
 class HomeController extends Controller
 {
+    protected $slideRepo;
+    protected $postRepo;
+    public function __construct(SlideRepo $slideRepo, PostRepo $postRepo)
+    {
+        $this->slideRepo = $slideRepo;
+        $this->postRepo = $postRepo;
+    }
+
     /**
      * Display a listing of the resource.
      *
@@ -13,7 +23,14 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('home');
+        $slides = $this->slideRepo->slides();
+        $posts = $this->postRepo->getPostByType();
+        $tienIchs = $this->postRepo->getPostByType('tien_ich', 5);
+        return view('home', [
+            'slides' => $slides,
+            'posts'  => $posts,
+            'tienIchs'  => $tienIchs,
+        ]);
     }
 
     /**

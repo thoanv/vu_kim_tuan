@@ -27,6 +27,14 @@
                 </a>
             </li>
             <li class="nav-item">
+                <a class="nav-link text-white {{ (request()->is('admin/slides')) ? 'active bg-gradient-primary' : '' }}" href="{{route('slides.index')}}">
+                    <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
+                        <i class="material-icons opacity-10">table_view</i>
+                    </div>
+                    <span class="nav-link-text ms-1">Slide</span>
+                </a>
+            </li>
+            <li class="nav-item">
                 <a class="nav-link text-white {{ (request()->is('admin/posts')) ? 'active bg-gradient-primary' : '' }}" href="{{route('posts.index')}}">
                     <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
                         <i class="material-icons opacity-10">table_view</i>

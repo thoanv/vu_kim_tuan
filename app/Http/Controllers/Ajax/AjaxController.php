@@ -1,8 +1,8 @@
 <?php
 
 namespace App\Http\Controllers\Ajax;
-use App\Models\Department;
-use App\Models\User;
+use App\Models\Post;
+use App\Models\Slide;
 use Illuminate\Http\Request;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Support\Facades\Validator;
@@ -27,11 +27,11 @@ class AjaxController extends BaseController
 
         $model = null;
         switch ($request->get('table')) {
-            case 'departments':
-                $model = Department::find($id);
+            case 'posts':
+                $model = Post::find($id);
                 break;
-            case 'users':
-                $model = User::find($id);
+            case 'slides':
+                $model = Slide::find($id);
                 break;
             default:
                 break;
