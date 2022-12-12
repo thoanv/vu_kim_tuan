@@ -227,8 +227,6 @@
     /* ]]> */
 </script>
 <script type='text/javascript' src="/wp-content/themes/flatsome/assets/js/flatsomef43b.js?ver=3.7.1"></script>
-<script type='text/javascript' src="/wp-content/themes/flatsome/assets/js/woocommercef43b.js?ver=3.7.1"></script>
-<script type='text/javascript' src="/wp-includes/js/wp-embed.minca80.js?ver=4.9.15"></script>
 @stack('scripts')
 </body>
 

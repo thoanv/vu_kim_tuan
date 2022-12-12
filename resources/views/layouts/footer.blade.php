@@ -67,7 +67,7 @@
                             <form id="apply-job" action="{{route('contact.store')}}" method="post"
                                   class="wpcf7-form">
                                 @csrf
-                                <div class="form-ct ">
+                                <div class="form-ct">
                                     <div class="form-row w50">
                                             <span class="wpcf7-form-control-wrap text-name">
                                                 <input type="text"

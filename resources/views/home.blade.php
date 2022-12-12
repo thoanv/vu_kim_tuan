@@ -201,7 +201,7 @@
                         <div class="col medium-6 small-12 large-6">
                             <div class="col-inner" style="padding:0px 20px 0px 20px;margin:50px 0px 0px 0px;">
                                 <div class="img has-hover x md-x lg-x y md-y lg-y" id="image_1180965298">
-                                    <a class="open-video" href="https://www.youtube.com/embed/kZ-TL7uCXJ4"
+                                    <a class="open-video" href="https://www.youtube.com/embed/WREeA1VjpWU"
                                        target="_self">
                                         <div class="img-inner dark">
                                             <img width="1024" height="717"
