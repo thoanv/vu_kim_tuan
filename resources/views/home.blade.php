@@ -109,7 +109,7 @@
                                                         border-radius: 10px;">
 
                                                         <h3 class="text-color-" style="">Đang mở bán quỹ căn 3 ngủ đẹp nhất dự án</h3>
-                                                        <h2 class="text-color-"><i aria-hidden="true" class="fa fa-volume-control-phone"></i> : 098 316 9908</h2>
+                                                        <h2 class="text-color-"><i aria-hidden="true" class="fa fa-phone-square"></i> : 098 316 9908</h2>
                                                     </div>
                                                 </div><!-- text-box-inner -->
                                             </div>

@@ -1310,3 +1310,6 @@ h1, h2, h3, h4, h5, h6, .heading-font {
     color: #e2ba48!important;
     text-shadow: 2px 2px 2px #000;
 }
+.text-color- i{
+    animation: phonering-alo-circle-img-anim 1s infinite ease-in-out;
+}
