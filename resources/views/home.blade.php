@@ -205,9 +205,8 @@
                                        target="_self">
                                         <div class="img-inner dark">
                                             <img width="1024" height="717"
-                                                 src="wp-content/uploads/2018/12/cong-vien-cau-giay.jpg"
+                                                 src="/images/tien-ich-the-the-nine-tower.jpg"
                                                  class="attachment-original size-original" alt=""
-                                                 srcset="http://mauweb.monamedia.net/luxury-parkview/wp-content/uploads/2018/12/cong-vien-cau-giay.jpg 1024w, http://mauweb.monamedia.net/luxury-parkview/wp-content/uploads/2018/12/cong-vien-cau-giay-300x210.jpg 300w, http://mauweb.monamedia.net/luxury-parkview/wp-content/uploads/2018/12/cong-vien-cau-giay-768x538.jpg 768w, http://mauweb.monamedia.net/luxury-parkview/wp-content/uploads/2018/12/cong-vien-cau-giay-600x420.jpg 600w"
                                                  sizes="(max-width: 1024px) 100vw, 1024px"/>
                                             <div class="overlay" style="background-color: rgba(255, 255, 255, 0)"></div>
                                             <div

@@ -26,19 +26,19 @@
             padding: 0 !important;
         }
     </style>
-    <link rel='stylesheet' id='dashicons-css' href="wp-includes/css/dashicons.minca80.css?ver=4.9.15" type='text/css'
+    <link rel='stylesheet' id='dashicons-css' href="/wp-includes/css/dashicons.minca80.css?ver=4.9.15" type='text/css'
           media='all'/>
     <link rel='stylesheet' id='menu-icons-extra-css'
-          href="wp-content/plugins/ot-flatsome-vertical-menu/libs/menu-icons/css/extra.mincf86.css?ver=0.10.2"
+          href="/wp-content/plugins/ot-flatsome-vertical-menu/libs/menu-icons/css/extra.mincf86.css?ver=0.10.2"
           type='text/css' media='all'/>
-    <link rel='stylesheet' id='hrw-css' href="wp-content/plugins/call-now-icon-animate/css.css" type='text/css'
+    <link rel='stylesheet' id='hrw-css' href="/wp-content/plugins/call-now-icon-animate/css.css" type='text/css'
           media=''/>
     <link rel='stylesheet' id='contact-form-7-css'
-          href="wp-content/plugins/contact-form-7/includes/css/styles1748.css?ver=5.0.5" type='text/css' media='all'/>
+          href="/wp-content/plugins/contact-form-7/includes/css/styles1748.css?ver=5.0.5" type='text/css' media='all'/>
     <link rel='stylesheet' id='fb-messenger-style-css'
-          href="wp-content/plugins/fb-messenger/css/styleca80.css?ver=4.9.15" type='text/css' media='all'/>
+          href="/wp-content/plugins/fb-messenger/css/styleca80.css?ver=4.9.15" type='text/css' media='all'/>
     <link rel='stylesheet' id='ot-vertical-menu-css'
-          href="wp-content/plugins/ot-flatsome-vertical-menu/assets/css/ot-vertical-menuf488.css?ver=1.1.0"
+          href="/wp-content/plugins/ot-flatsome-vertical-menu/assets/css/ot-vertical-menuf488.css?ver=1.1.0"
           type='text/css' media='all'/>
     <style id='woocommerce-inline-inline-css' type='text/css'>
         .woocommerce form .form-row .required {
@@ -48,26 +48,25 @@
     <link rel='stylesheet' id='tt-easy-google-fonts-css'
           href="https://fonts.googleapis.com/css?family=Yeseva+One%3Aregular&amp;subset=latin%2Call&amp;ver=4.9.15"
           type='text/css' media='all'/>
-    <link rel='stylesheet' id='flatsome-icons-css' href="wp-content/themes/flatsome/assets/css/fl-icons6de8.css?ver=3.3"
+    <link rel='stylesheet' id='flatsome-icons-css' href="/wp-content/themes/flatsome/assets/css/fl-icons6de8.css?ver=3.3"
           type='text/css' media='all'/>
     <link rel='stylesheet' id='easy-social-share-buttons-css'
-          href="wp-content/plugins/easy-social-share-buttons3/assets/css/default-retina/easy-social-share-buttons1ac1.css?ver=3.7.3"
+          href="/wp-content/plugins/easy-social-share-buttons3/assets/css/default-retina/easy-social-share-buttons1ac1.css?ver=3.7.3"
           type='text/css' media='all'/>
     <link rel='stylesheet' id='essb-cct-style-css'
-          href="wp-content/plugins/easy-social-share-buttons3/lib/modules/click-to-tweet/assets/css/styles1ac1.css?ver=3.7.3"
+          href="/wp-content/plugins/easy-social-share-buttons3/lib/modules/click-to-tweet/assets/css/styles1ac1.css?ver=3.7.3"
           type='text/css' media='all'/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
           integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw=="
           crossorigin="anonymous" referrerpolicy="no-referrer"/>
     <link rel='stylesheet' id='flatsome-main-css'
-          href="wp-content/themes/flatsome/assets/css/flatsomef43b.css?ver=3.7.1" type='text/css' media='all'/>
+          href="/wp-content/themes/flatsome/assets/css/flatsomef43b.css?ver=3.7.1" type='text/css' media='all'/>
     <link rel='stylesheet' id='flatsome-shop-css'
-          href="wp-content/themes/flatsome/assets/css/flatsome-shopf43b.css?ver=3.7.1" type='text/css' media='all'/>
-    <link rel='stylesheet' id='flatsome-style-css' href="wp-content/themes/flatsome-child/stylef43b.css?ver=3.7.1"
+          href="/wp-content/themes/flatsome/assets/css/flatsome-shopf43b.css?ver=3.7.1" type='text/css' media='all'/>
+    <link rel='stylesheet' id='flatsome-style-css' href="/wp-content/themes/flatsome-child/stylef43b.css?ver=3.7.1"
           type='text/css' media='all'/>
     <link rel="stylesheet" href="{{asset('css/style.css')}}">
-    <script type='text/javascript' src="wp-includes/js/jquery/jqueryb8ff.js?ver=1.12.4"></script>
-    <script type='text/javascript' src="wp-includes/js/jquery/jquery-migrate.min330a.js?ver=1.4.1"></script>
+
 
     <meta property="og:locale" content="vi_VN"/>
     <meta property="og:type" content="website"/>
@@ -177,7 +176,7 @@
 </a>
 <!-- FB Messenger -->
 {{--<div id="fbMsg">--}}
-{{--    <img data-remodal-target="fb-messenger" src="wp-content/plugins/fb-messenger/images/fb-messenger.png">--}}
+{{--    <img data-remodal-target="fb-messenger" src="/wp-content/plugins/fb-messenger/images/fb-messenger.png">--}}
 {{--</div>--}}
 
 <div class="remodal" data-remodal-id="fb-messenger">
@@ -204,20 +203,19 @@
         </a>
     </div>
 </div>
-<!-- End FB Messenger -->
+<script type='text/javascript' src="/assets/js/jquery-3.6.1.min.js"></script>
+<script type='text/javascript' src="/wp-includes/js/jquery/jqueryb8ff.js?ver=1.12.4"></script>
+<script type='text/javascript' src="/wp-includes/js/jquery/jquery-migrate.min330a.js?ver=1.4.1"></script>
+<script type='text/javascript' src="/wp-content/plugins/fb-messenger/js/indexca80.js?ver=4.9.15"></script>
+<script type='text/javascript'
+        src="/wp-content/plugins/ot-flatsome-vertical-menu/assets/js/ot-vertical-menuf488.js?ver=1.1.0"></script>
+<script type='text/javascript'
+        src="/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min44fd.js?ver=2.70"></script>
 
-<script type='text/javascript' src="wp-content/plugins/contact-form-7/includes/js/scripts1748.js?ver=5.0.5"></script>
-<script type='text/javascript' src="wp-content/plugins/fb-messenger/js/indexca80.js?ver=4.9.15"></script>
-<script type='text/javascript'
-        src="wp-content/plugins/ot-flatsome-vertical-menu/assets/js/ot-vertical-menuf488.js?ver=1.1.0"></script>
-<script type='text/javascript'
-        src="wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min44fd.js?ver=2.70"></script>
 
 <script type='text/javascript'
-        src="wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min9d52.js?ver=3.5.1"></script>
-<script type='text/javascript'
-        src="wp-content/themes/flatsome/inc/extensions/flatsome-live-search/flatsome-live-searchf43b.js?ver=3.7.1"></script>
-<script type='text/javascript' src="wp-includes/js/hoverIntent.minc245.js?ver=1.8.1"></script>
+        src="/wp-content/themes/flatsome/inc/extensions/flatsome-live-search/flatsome-live-searchf43b.js?ver=3.7.1"></script>
+<script type='text/javascript' src="/wp-includes/js/hoverIntent.minc245.js?ver=1.8.1"></script>
 <script type='text/javascript'>
     /* <![CDATA[ */
     var flatsomeVars = {
@@ -228,10 +226,10 @@
     };
     /* ]]> */
 </script>
-<script type='text/javascript' src="wp-content/themes/flatsome/assets/js/flatsomef43b.js?ver=3.7.1"></script>
-<script type='text/javascript' src="wp-content/themes/flatsome/assets/js/woocommercef43b.js?ver=3.7.1"></script>
-<script type='text/javascript' src="wp-includes/js/wp-embed.minca80.js?ver=4.9.15"></script>
-
+<script type='text/javascript' src="/wp-content/themes/flatsome/assets/js/flatsomef43b.js?ver=3.7.1"></script>
+<script type='text/javascript' src="/wp-content/themes/flatsome/assets/js/woocommercef43b.js?ver=3.7.1"></script>
+<script type='text/javascript' src="/wp-includes/js/wp-embed.minca80.js?ver=4.9.15"></script>
+@stack('scripts')
 </body>
 
 <!-- Mirrored from mauweb.monamedia.net/luxury-parkview/ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 09 Dec 2022 02:25:09 GMT -->

@@ -73,7 +73,7 @@
                                                 <input type="text"
                                                    name="name"
                                                    value="" size="40"
-                                                   class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form_lien_he"
+                                                   class="apply-full-name wpcf7-form-control wpcf7-text wpcf7-validates-as-required form_lien_he"
                                                    id="text-name"
                                                    aria-required="true"
                                                    aria-invalid="false"
@@ -85,7 +85,7 @@
                                                    name="email"
                                                    value=""
                                                    size="40"
-                                                   class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email form_lien_he"
+                                                   class="apply-email wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email form_lien_he"
                                                    id="email-contact"
                                                    aria-required="true"
                                                    aria-invalid="false"
@@ -96,7 +96,7 @@
                                                 <input type="text"
                                                      name="phone"
                                                      value=""
-                                                     class="wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-required wpcf7-validates-as-tel form_lien_he"
+                                                     class="apply-phone wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-required wpcf7-validates-as-tel form_lien_he"
                                                      id="phoneNumber"
                                                      placeholder="Số điện thoại"/></span>
                                     </div>
@@ -105,7 +105,7 @@
                                                 <input type="text"
                                                   name="text-address"
                                                   value="" size="40"
-                                                  class="wpcf7-form-control wpcf7-text form_lien_he"
+                                                  class="apply-address wpcf7-form-control wpcf7-text form_lien_he"
                                                   id="text-address"
                                                   aria-invalid="false"
                                                   placeholder="Địa chỉ"/></span>
@@ -113,13 +113,13 @@
                                     <div class="form-row">
                                             <span class="wpcf7-form-control-wrap textarea-noidung"><textarea
                                                     name="textarea-noidung" cols="40" rows="10"
-                                                    class="wpcf7-form-control wpcf7-textarea wpcf7-validates-as-required form_lien_he"
+                                                    class="apply-note wpcf7-form-control wpcf7-textarea wpcf7-validates-as-required form_lien_he"
                                                     id="textarea-noidung" aria-required="true" aria-invalid="false"
                                                     placeholder="Lời nhắn"></textarea></span>
                                     </div>
                                     <div class="form-row center-txt">
                                         <input type="submit" value="Gửi"
-                                               class="wpcf7-form-control wpcf7-submit form_lien_he" id="bt-gui"/>
+                                               class="wpcf7-form-control wpcf7-submit form_lien_he" />
                                     </div>
                                 </div>
                             </form>
@@ -164,42 +164,20 @@
     <script>
         $('#apply-job').submit(function (e) {
             console.log(123);
-            {{--e.preventDefault();--}}
-            {{--let formData = new FormData(this);--}}
-            {{--// $('#file-input-error').text('');--}}
-            {{--let name = $('.apply-full-name').val();--}}
-            {{--let email = $('.apply-email').val();--}}
-            {{--let phone = $('.apply-phone').val();--}}
-            {{--let specialize = $('.apply-specialize').val();--}}
-            {{--let file = $('.apply-file-detail').val();--}}
-            {{--let recruitment_id = $('.recruitment_id').val();--}}
-            {{--let captcha = $('.apply-captcha').val();--}}
-            {{--let check = true;--}}
-            {{--$('.note-name').html('');--}}
-            {{--$('.note-email').html('');--}}
-            {{--$('.note-phone').html('');--}}
-            {{--$('.note-file').html('');--}}
-            {{--$('.note-captcha').html('');--}}
-            {{--if (name === '') {--}}
-            {{--    $('.note-name').html('Không được để trống');--}}
-            {{--    check = false;--}}
-            {{--}--}}
-            {{--if (email === '') {--}}
-            {{--    $('.note-email').html('Không được để trống');--}}
-            {{--    check = false;--}}
-            {{--}--}}
-            {{--if (phone === '') {--}}
-            {{--    $('.note-phone').html('Không được để trống');--}}
-            {{--    check = false;--}}
-            {{--}--}}
-            {{--if (file === '') {--}}
-            {{--    $('.note-file').html('Không được để trống');--}}
-            {{--    check = false;--}}
-            {{--}--}}
-            {{--if (captcha === '') {--}}
-            {{--    $('.note-captcha').html('Không được để trống');--}}
-            {{--    check = false;--}}
-            {{--}--}}
+            e.preventDefault();
+            let formData = new FormData(this);
+            let name = $('.apply-full-name').val();
+            let email = $('.apply-email').val();
+            let phone = $('.apply-phone').val();
+            let address = $('.apply-address').val();
+            let note = $('.apply-note').val();
+            let check = true;
+            $('.note-name').html('');
+            $('.note-email').html('');
+            $('.note-phone').html('');
+            $('.apply-address').html('');
+            $('.apply-note').html('');
+
             {{--if (check) {--}}
             {{--    $('.btn-apply-cs').css('display', 'none');--}}
             {{--    $('.loading-comment').css('display', 'block');--}}
@@ -270,9 +248,7 @@
             {{--}--}}
         });
     </script>
-@endpush
-<script type="text/javascript">
-    $(document).ready(function () {
+    <script type="text/javascript">
         const isNumericInput = (event) => {
             const key = event.keyCode;
             return ((key >= 48 && key <= 57) || // Allow number line
@@ -317,5 +293,6 @@
         const inputElement_ = document.getElementById('phoneNumber');
         inputElement_.addEventListener('keydown', enforceFormat);
         inputElement_.addEventListener('keyup', formatToPhone);
-    })
-</script>
+    </script>
+
+@endpush

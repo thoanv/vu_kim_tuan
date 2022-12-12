@@ -19,7 +19,7 @@ use App\Http\Controllers\Admin\ContactController;
 */
 
 Route::get('/', [HomeController::class, 'index'])->name('home');
-Route::get('/{slug}', [HomeController::class, 'show'])->name('detail');
+Route::get('/detail/{slug}', [HomeController::class, 'show'])->name('detail');
 Route::group(['prefix' => 'admin', 'middleware' => ['auth']], function(){
     Route::get('/information', [InformationController::class, 'edit'])->name('information.edit');
     Route::post('/information', [InformationController::class, 'update'])->name('information.update');
