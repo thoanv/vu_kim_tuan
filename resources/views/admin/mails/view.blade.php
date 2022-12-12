@@ -192,9 +192,15 @@
                     <div class="text-one">{{$mail['time']}}</div>
                 </div>
             @endif
+            @if(isset($mail['address']))
+            <div class="email details">
+                <div class="topic">Địa chỉ</div>
+                <div class="text-one">{{$mail['address']}}</div>
+            </div>
+            @endif
         </div>
         <div class="left-side">
-            @if($mail['note'])
+            @if(isset($mail['note']))
                 <div class="address details">
                     <div class="topic">Lời nhắn</div>
                     <div class="text-one">{{$mail['note']}}</div>

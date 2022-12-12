@@ -431,7 +431,7 @@
                                 <p> Tìm kiếm một căn hộ cao cấp ở Hà Nội không khó, nhưng để chọn lựa một ngôi nhà mà
                                     mọi tiện ích được đáp ứng và đạt chuẩn sống cao vẫn luôn là mối băn khoăn với những
                                     cư dân hiện đại.</p>
-                                <a href="{{route('home')}}#lien-he" class="button white is-outline" style="border-radius:99px;">
+                                <a  class="myBtn button white is-outline" style="border-radius:99px;">
                                     <span>Đăng ký tham quan</span>
                                 </a>
 
@@ -770,7 +770,7 @@
                                 <p> Tìm kiếm một căn hộ cao cấp ở Hà Nội không khó, nhưng để chọn lựa một ngôi nhà mà
                                     mọi tiện ích được đáp ứng và đạt chuẩn sống cao vẫn luôn là mối băn khoăn với những
                                     cư dân hiện đại.</p>
-                                <a href="{{route('home')}}#lien-he" class="button white is-outline" style="border-radius:99px;">
+                                <a  class="myBtn button white is-outline" style="border-radius:99px;">
                                     <span>Đăng ký tham quan</span>
                                 </a>
 

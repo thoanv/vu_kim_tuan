@@ -1216,7 +1216,7 @@ h1, h2, h3, h4, h5, h6, .heading-font {
     50% {transform: translate(0,15px);}
     100% {transform: translate(0,0);}
 }
-.button{
+.button, .button-register{
     background-image: linear-gradient(45deg, #2b3723, #5e6f52);
     border: 1px solid currentColor !important;
 }
@@ -1224,3 +1224,85 @@ h1, h2, h3, h4, h5, h6, .heading-font {
     background-color: transparent !important;
     color: gold !important;
 }
+.button-register{
+    border-radius: 20px!important;
+}
+.button-register:hover{
+    background-color: transparent !important;
+    color: gold !important;
+}
+.closes.button-register{
+
+}
+.form_wrapper {
+    /*background-image: linear-gradient(45deg, #2b3723, #5e6f52);*/
+    background: #FFF;
+    max-width: 100%;
+    box-sizing: border-box;
+    padding: 25px;
+    margin: 8% auto 0;
+    position: relative;
+    z-index: 1;
+    border-top: 10px solid var(--primary-color);
+    -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+    -webkit-transform-origin: 50% 0%;
+    transform-origin: 50% 0%;
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+    -webkit-transition: none;
+    transition: none;
+    -webkit-animation: expand 0.8s 0.6s ease-out forwards;
+    animation: expand 0.8s 0.6s ease-out forwards;
+    opacity: 1;
+    border-radius: 10px;
+}
+.form_wrapper .title_container {
+    text-align: center;
+    padding-bottom: 15px;
+}
+.form_wrapper h2{
+    font-size: 1.5em;
+    line-height: 1.5em;
+    margin: 0;
+}
+.form_wrapper .row {
+    margin: 10px 0;
+}
+.form_wrapper .row > div {
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+.form_wrapper .input_field {
+    position: relative;
+    margin-bottom: 20px;
+    -webkit-animation: bounce 0.6s ease-out;
+    animation: bounce 0.6s ease-out;
+}
+.form_wrapper .input_field > span {
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #333;
+    height: 71%;
+    border-right: 1px solid #cccccc;
+    text-align: center;
+    width: 40px;
+}
+.form_wrapper .input_field > span > i {
+    padding-top: 10px;
+}
+.form_wrapper input[type=text], .form_wrapper input[type=email], .form_wrapper input[type=password] {
+    width: 100%;
+    padding: 8px 10px 9px 50px;
+    height: 40px;
+    border: 1px solid #cccccc;
+    box-sizing: border-box;
+    outline: none;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
