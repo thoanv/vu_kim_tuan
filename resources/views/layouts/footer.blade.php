@@ -108,8 +108,8 @@
                                                     placeholder="Lời nhắn"></textarea></span>
                                     </div>
                                     <div class="form-row center-txt">
-                                        <input type="submit" value="Gửi"
-                                               class="wpcf7-form-control wpcf7-submit form_lien_he" />
+                                        <input type="submit" value="Đăng ký" style="border-radius: 20px"
+                                               class="button white is-outline wpcf7-form-control wpcf7-submit form_lien_he" />
                                         <div class="text-center loading-comment">
                                             <div class="loader text-center">
                                                 <p class="text-center load-3" style="display: inline-block">
