@@ -97,45 +97,44 @@
                                         <div class="bg fill bg-fill "></div>
                                         <div class="overlay"></div>
                                     </div><!-- bg-layers -->
-{{--                                    <div class="banner-layers container">--}}
-{{--                                        <div class="fill banner-link"></div>--}}
-{{--                                        <div id="text-box-273166983"--}}
-{{--                                             class="text-box banner-layer x50 md-x50 lg-x50 y50 md-y50 lg-y50 res-text">--}}
-{{--                                            <div data-animate="fadeInUp">--}}
-{{--                                                <div class="text dark">--}}
+                                    <div class="banner-layers container">
+                                        <div class="fill banner-link"></div>
+                                        <div id="text-box-273166983"
+                                             class="text-box banner-layer x50 md-x50 lg-x50 y50 md-y50 lg-y50 res-text">
+                                            <div data-animate="fadeInUp">
+                                                <div class="text dark">
 
-{{--                                                    <div class="text-inner text-center">--}}
+                                                    <div class="text-inner text-center" style="background: rgb(255 255 255 / 30%);
+                                                        padding: 10px;
+                                                        border-radius: 10px;">
 
-{{--                                                        <h4>Căn hộ cao cấp tại trung tâm Sài Gòn</h4>--}}
-{{--                                                        <h1>MONA PARK VIEW</h1>--}}
-{{--                                                        <p><span--}}
-{{--                                                                style="font-size: 130%;">Xứng đáng với đẳng cấp của bạn</span>--}}
-{{--                                                        </p>--}}
-{{--                                                    </div>--}}
-{{--                                                </div><!-- text-box-inner -->--}}
-{{--                                            </div>--}}
-{{--                                            <style scope="scope">--}}
+                                                        <h3 class="text-color-" style="">Đang mở bán quỹ căn 3 ngủ đẹp nhất dự án</h3>
+                                                        <h2 class="text-color-"><i aria-hidden="true" class="fa fa-volume-control-phone"></i> : 098 316 9908</h2>
+                                                    </div>
+                                                </div><!-- text-box-inner -->
+                                            </div>
+                                            <style scope="scope">
 
-{{--                                                #text-box-273166983 {--}}
-{{--                                                    width: 90%;--}}
-{{--                                                }--}}
+                                                #text-box-273166983 {
+                                                    width: 90%;
+                                                }
 
-{{--                                                #text-box-273166983 .text {--}}
-{{--                                                    font-size: 90%;--}}
-{{--                                                }--}}
+                                                #text-box-273166983 .text {
+                                                    font-size: 90%;
+                                                }
 
 
-{{--                                                @media (min-width: 550px) {--}}
+                                                @media (min-width: 550px) {
 
-{{--                                                    #text-box-273166983 .text {--}}
-{{--                                                        font-size: 100%;--}}
-{{--                                                    }--}}
+                                                    #text-box-273166983 .text {
+                                                        font-size: 100%;
+                                                    }
 
-{{--                                                }--}}
-{{--                                            </style>--}}
-{{--                                        </div><!-- text-box -->--}}
+                                                }
+                                            </style>
+                                        </div><!-- text-box -->
 
-{{--                                    </div><!-- .banner-layers -->--}}
+                                    </div><!-- .banner-layers -->
                                 </div><!-- .banner-inner -->
 
 
