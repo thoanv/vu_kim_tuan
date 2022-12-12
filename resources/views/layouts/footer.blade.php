@@ -64,14 +64,14 @@
                                 style="color: #ffffff;">hoặc ĐĂNG KÝ THAM QUAN và NHẬN BÁO GIÁ</span></p>
                         <div role="form" class="wpcf7" id="wpcf7-f43-o2" lang="vi" dir="ltr">
                             <div class="screen-reader-response"></div>
-                            <form action="{{route('contact.store')}}" method="post"
-                                  class="wpcf7-form" novalidate="novalidate">
-
-                                <div class="form-ct clear">
+                            <form id="apply-job" action="{{route('contact.store')}}" method="post"
+                                  class="wpcf7-form">
+                                @csrf
+                                <div class="form-ct ">
                                     <div class="form-row w50">
                                             <span class="wpcf7-form-control-wrap text-name">
                                                 <input type="text"
-                                                   name="text-name"
+                                                   name="name"
                                                    value="" size="40"
                                                    class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form_lien_he"
                                                    id="text-name"
@@ -82,7 +82,7 @@
                                     <div class="form-row w50">
                                             <span class="wpcf7-form-control-wrap email-contact">
                                                 <input type="email"
-                                                   name="email-contact"
+                                                   name="email"
                                                    value=""
                                                    size="40"
                                                    class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email form_lien_he"
@@ -93,13 +93,11 @@
                                     </div>
                                     <div class="form-row w50">
                                             <span class="wpcf7-form-control-wrap tel-contact">
-                                                <input type="number"
-                                                     name="tel-contact"
-                                                     value="" size="40"
+                                                <input type="text"
+                                                     name="phone"
+                                                     value=""
                                                      class="wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-required wpcf7-validates-as-tel form_lien_he"
                                                      id="phoneNumber"
-                                                     aria-required="true"
-                                                     aria-invalid="false"
                                                      placeholder="Số điện thoại"/></span>
                                     </div>
                                     <div class="form-row w50">
@@ -124,7 +122,6 @@
                                                class="wpcf7-form-control wpcf7-submit form_lien_he" id="bt-gui"/>
                                     </div>
                                 </div>
-                                <div class="wpcf7-response-output wpcf7-display-none"></div>
                             </form>
                         </div>
 
@@ -163,3 +160,162 @@
        id="top-link"><i class="icon-angle-up"></i></a>
 
 </footer><!-- .footer-wrapper -->
+@push('scripts')
+    <script>
+        $('#apply-job').submit(function (e) {
+            console.log(123);
+            {{--e.preventDefault();--}}
+            {{--let formData = new FormData(this);--}}
+            {{--// $('#file-input-error').text('');--}}
+            {{--let name = $('.apply-full-name').val();--}}
+            {{--let email = $('.apply-email').val();--}}
+            {{--let phone = $('.apply-phone').val();--}}
+            {{--let specialize = $('.apply-specialize').val();--}}
+            {{--let file = $('.apply-file-detail').val();--}}
+            {{--let recruitment_id = $('.recruitment_id').val();--}}
+            {{--let captcha = $('.apply-captcha').val();--}}
+            {{--let check = true;--}}
+            {{--$('.note-name').html('');--}}
+            {{--$('.note-email').html('');--}}
+            {{--$('.note-phone').html('');--}}
+            {{--$('.note-file').html('');--}}
+            {{--$('.note-captcha').html('');--}}
+            {{--if (name === '') {--}}
+            {{--    $('.note-name').html('Không được để trống');--}}
+            {{--    check = false;--}}
+            {{--}--}}
+            {{--if (email === '') {--}}
+            {{--    $('.note-email').html('Không được để trống');--}}
+            {{--    check = false;--}}
+            {{--}--}}
+            {{--if (phone === '') {--}}
+            {{--    $('.note-phone').html('Không được để trống');--}}
+            {{--    check = false;--}}
+            {{--}--}}
+            {{--if (file === '') {--}}
+            {{--    $('.note-file').html('Không được để trống');--}}
+            {{--    check = false;--}}
+            {{--}--}}
+            {{--if (captcha === '') {--}}
+            {{--    $('.note-captcha').html('Không được để trống');--}}
+            {{--    check = false;--}}
+            {{--}--}}
+            {{--if (check) {--}}
+            {{--    $('.btn-apply-cs').css('display', 'none');--}}
+            {{--    $('.loading-comment').css('display', 'block');--}}
+            {{--    setTimeout(function () {--}}
+            {{--        $.ajax({--}}
+            {{--            type: 'POST',--}}
+            {{--            url: "{{ route('apply-now') }}",--}}
+            {{--            data: formData,--}}
+            {{--            contentType: false,--}}
+            {{--            processData: false,--}}
+            {{--            success: (res) => {--}}
+            {{--                let is_check = res.data.success;--}}
+            {{--                let data = res.data;--}}
+            {{--                console.log(data);--}}
+            {{--                if (is_check === 422) {--}}
+            {{--                    let errors = res.data.data;--}}
+            {{--                    if (errors.captcha) {--}}
+            {{--                        $('.note-captcha').html(errors.captcha[0]);--}}
+            {{--                    }--}}
+            {{--                    if (errors.file_cv) {--}}
+            {{--                        $('.note-file').html(errors.file_cv[0]);--}}
+            {{--                    }--}}
+            {{--                    getCaptcha();--}}
+            {{--                    $('.apply-captcha').val('');--}}
+            {{--                } else if (is_check === 101) {--}}
+            {{--                    const swalWithBootstrapButtons = Swal.mixin({--}}
+            {{--                        customClass: {--}}
+            {{--                            confirmButton: 'btn btn-apply-cs',--}}
+            {{--                        },--}}
+            {{--                        buttonsStyling: false--}}
+            {{--                    })--}}
+            {{--                    swalWithBootstrapButtons.fire({--}}
+            {{--                        title: 'Thông báo',--}}
+            {{--                        text: data.message,--}}
+            {{--                        icon: 'success',--}}
+            {{--                        confirmButtonText: 'Đóng',--}}
+            {{--                        reverseButtons: true--}}
+            {{--                    })--}}
+            {{--                } else {--}}
+            {{--                    // alert(data.message);--}}
+            {{--                    const swalWithBootstrapButtons = Swal.mixin({--}}
+            {{--                        customClass: {--}}
+            {{--                            confirmButton: 'btn btn-apply-cs',--}}
+            {{--                        },--}}
+            {{--                        buttonsStyling: false--}}
+            {{--                    })--}}
+            {{--                    swalWithBootstrapButtons.fire({--}}
+            {{--                        title: 'Thông báo',--}}
+            {{--                        text: data.message,--}}
+            {{--                        icon: 'success',--}}
+            {{--                        confirmButtonText: 'Đóng',--}}
+            {{--                        reverseButtons: true--}}
+            {{--                    }).then((result) => {--}}
+            {{--                        if (result.isConfirmed) {--}}
+            {{--                            window.location.reload();--}}
+            {{--                        }--}}
+            {{--                    })--}}
+            {{--                    // window.location.reload();--}}
+            {{--                }--}}
+            {{--                $('.btn-apply-cs').css('display', 'inline-block');--}}
+            {{--                $('.loading-comment').css('display', 'none');--}}
+            {{--            },--}}
+            {{--            error: function (response) {--}}
+            {{--                $('#file-input-error').text(response.responseJSON.message);--}}
+            {{--            }--}}
+            {{--        });--}}
+            {{--    }, 500);--}}
+            {{--}--}}
+        });
+    </script>
+@endpush
+<script type="text/javascript">
+    $(document).ready(function () {
+        const isNumericInput = (event) => {
+            const key = event.keyCode;
+            return ((key >= 48 && key <= 57) || // Allow number line
+                (key >= 96 && key <= 105) // Allow number pad
+            );
+        };
+        const isModifierKey = (event) => {
+            const key = event.keyCode;
+            return (event.shiftKey === true || key === 35 || key === 36) || // Allow Shift, Home, End
+                (key === 8 || key === 9 || key === 13 || key === 46) || // Allow Backspace, Tab, Enter, Delete
+                (key > 36 && key < 41) || // Allow left, up, right, down
+                (
+                    // Allow Ctrl/Command + A,C,V,X,Z
+                    (event.ctrlKey === true || event.metaKey === true) &&
+                    (key === 65 || key === 67 || key === 86 || key === 88 || key === 90)
+                )
+        };
+        const enforceFormat = (event) => {
+            // Input must be of a valid number format or a modifier key, and not longer than ten digits
+            if (!isNumericInput(event) && !isModifierKey(event)) {
+                event.preventDefault();
+            }
+        };
+        const formatToPhone = (event) => {
+            if (isModifierKey(event)) {
+                return;
+            }
+            // I am lazy and don't like to type things more than once
+            const target = event.target;
+            const input = event.target.value.replace(/\D/g, '').substring(0, 10); // First ten digits of input only
+            const zip = input.substring(0, 3);
+            const middle = input.substring(3, 6);
+            const last = input.substring(6, 10);
+            if (input.length > 6) {
+                target.value = `${zip} ${middle} ${last}`;
+            } else if (input.length > 3) {
+                target.value = `${zip} ${middle}`;
+            } else if (input.length > 0) {
+                target.value = `${zip}`;
+            }
+        };
+        const inputElement_ = document.getElementById('phoneNumber');
+        inputElement_.addEventListener('keydown', enforceFormat);
+        inputElement_.addEventListener('keyup', formatToPhone);
+    })
+</script>
