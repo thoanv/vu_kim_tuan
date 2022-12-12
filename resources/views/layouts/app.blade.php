@@ -80,7 +80,15 @@
     <meta property="og:image:height" content="630"/>
 
     <meta name="twitter:card" content="summary_large_image"/>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-CCJ7W5R771"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
 
+        gtag('config', 'G-CCJ7W5R771');
+    </script>
 </head>
 <body
     class="home page-template page-template-page-blank page-template-page-blank-php page page-id-16 woocommerce-no-js lightbox nav-dropdown-has-arrow">
