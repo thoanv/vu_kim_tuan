@@ -227,6 +227,45 @@
     /* ]]> */
 </script>
 <script type='text/javascript' src="/wp-content/themes/flatsome/assets/js/flatsomef43b.js?ver=3.7.1"></script>
+<script>
+    var videoLink = $('.el-video-link-js'),
+        popup_id = $('#el-video-popup'),
+        videoLink = $('.el-video-link-js'),
+        videoBody =  $('.el-video-body-js'),
+        videoCloseButton = $('.el-video-button-js'),
+        popupOverlay = $('.el-video-overlay_popup');
+
+
+    videoLink.click(function(e) {
+        e.preventDefault();
+        // Связываем  popup_id
+        linkVideoSrc = $(this).attr('data-href');
+        popup_id.find('.el-video-popup__box-js').append('<iframe  src="https://www.youtube.com/embed/' + linkVideoSrc +'?rel=0&showinfo=0&autoplay=1" frameborder="0"  allowfullscreen="" allow="autoplay">');
+        popup_id.find(videoCloseButton).css("display" , "block");
+        console.log(linkVideoSrc);
+        // Открываем окно
+        popup_id.show();
+        popupOverlay.show();
+    });
+
+    $(videoCloseButton).click(function(e) {
+        e.preventDefault();
+        $(this).closest(videoBody).find(videoLink).css("display" , "block");
+        $(this).css("display" , "none");
+        popup_id.find('.el-video-popup__box-js iframe').remove();
+        popupOverlay.hide();
+        popup_id.hide();
+    });
+    // Обрабатываем клик по заднему фону
+    $(popupOverlay).click(function() {
+
+        // Скрываем затемнённый задний фон и основное всплывающее окно9
+        popupOverlay.hide();
+        popup_id.hide();
+        popup_id.find('.el-video-popup__box-js iframe').remove();
+    });
+
+</script>
 @stack('scripts')
 </body>
 

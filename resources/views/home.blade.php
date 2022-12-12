@@ -91,7 +91,7 @@
                         >
 
                             @foreach($slides as $key => $slide)
-                            <div class="banner has-hover bg-zoom" id="banner-1067129818{{$key}}">
+                            <div class="banner has-hover" id="banner-1067129818{{$key}}">
                                 <div class="banner-inner fill">
                                     <div class="banner-bg fill">
                                         <div class="bg fill bg-fill "></div>
@@ -201,7 +201,7 @@
                         <div class="col medium-6 small-12 large-6">
                             <div class="col-inner" style="padding:0px 20px 0px 20px;margin:50px 0px 0px 0px;">
                                 <div class="img has-hover x md-x lg-x y md-y lg-y" id="image_1180965298">
-                                    <a class="open-video" href="https://www.youtube.com/embed/WREeA1VjpWU"
+                                    <a class="open-video el-video__link el-video-link-js position-relative" data-href="WREeA1VjpWU"
                                        target="_self">
                                         <div class="img-inner dark">
                                             <img width="1024" height="717"
@@ -229,9 +229,14 @@
                             </div>
                         </div>
 
-                        <style scope="scope">
-
-                        </style>
+                        <div class="el-video-overlay_popup"> </div>
+                        <div class="el-video-popup" id="el-video-popup">
+                            <div class=" el-video-popup__box el-video-popup__box-js">
+                                <button class="el-video__button el-video-button-js" type="button" aria-label="">
+                                    <i class="fa fa-times" aria-hidden="true"></i>
+                                </button>
+                            </div>
+                        </div>
                     </div>
                     <div class="gap-element" style="display:block; height:auto; padding-top:40px"
                          class="clearfix"></div>
