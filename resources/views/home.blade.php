@@ -104,12 +104,10 @@
                                             <div data-animate="fadeInUp">
                                                 <div class="text dark">
 
-                                                    <div class="text-inner text-center" style="background: rgb(255 255 255 / 30%);
-                                                        padding: 10px;
-                                                        border-radius: 10px;">
+                                                    <div class="text-inner text-center">
 
-                                                        <h3 class="text-color-" style="">Đang mở bán quỹ căn 3 ngủ đẹp nhất dự án</h3>
-                                                        <h2 class="text-color-"><i aria-hidden="true" class="fa fa-phone-square"></i> : 098 316 9908</h2>
+                                                        <h2 class="text-color-" style="margin-bottom: 20px">Mở bán quỹ căn 3 ngủ đẹp nhất dự án</h2>
+                                                        <h2 class="text-color-" style="background: #e2ba48; display: inline; padding: 5px 10px; border-radius: 15px;">Hotline : 098 316 9908</h2>
                                                     </div>
                                                 </div><!-- text-box-inner -->
                                             </div>
@@ -149,7 +147,7 @@
                                     }
 
                                     #banner-1067129818{{$key}} .overlay {
-                                        background-color: rgba(0, 0, 0, 0.2);
+                                        background-color: rgba(0, 0, 0, 0.45);
                                     }
 
                                 </style>
