@@ -160,6 +160,7 @@
         </a>
     </div>
 </div>
+
 <script type='text/javascript' src="/assets/js/jquery-3.6.1.min.js"></script>
 <script type='text/javascript' src="/wp-includes/js/jquery/jqueryb8ff.js?ver=1.12.4"></script>
 <script type='text/javascript' src="/wp-includes/js/jquery/jquery-migrate.min330a.js?ver=1.4.1"></script>

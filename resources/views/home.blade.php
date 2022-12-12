@@ -662,13 +662,9 @@
                     }
                 </style>
             </section>
-
             <section class="section sec_payment" id="section_691729918">
                 <div class="bg section-bg fill bg-fill  bg-loaded">
-
-
                 </div><!-- .section-bg -->
-
                 <div class="section-content relative">
 
                     <span class="scroll-to" data-label="Scroll to: #thanh-toan" data-bullet="true"
