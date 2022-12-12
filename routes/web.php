@@ -20,10 +20,11 @@ use App\Http\Controllers\Admin\ContactController;
 
 Route::get('/', [HomeController::class, 'index'])->name('home');
 Route::get('/detail/{slug}', [HomeController::class, 'show'])->name('detail');
+Route::post('/contact', [HomeController::class, 'store'])->name('contact.store');
 Route::group(['prefix' => 'admin', 'middleware' => ['auth']], function(){
     Route::get('/information', [InformationController::class, 'edit'])->name('information.edit');
     Route::post('/information', [InformationController::class, 'update'])->name('information.update');
-    Route::post('/contact', [HomeController::class, 'store'])->name('contact.store');
+
     Route::resources([
         'posts' => PostController::class,
         'slides' => SlideController::class,

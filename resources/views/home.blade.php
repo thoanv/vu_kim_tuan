@@ -150,8 +150,9 @@
                                     }
 
                                     #banner-1067129818{{$key}} .overlay {
-                                        background-color: rgba(0, 0, 0, 0.1);
+                                        background-color: rgba(0, 0, 0, 0.2);
                                     }
+
                                 </style>
                             </div><!-- .banner -->
                             @endforeach
@@ -271,7 +272,7 @@
                     <div class="row align-middle align-center" id="row-968511478">
                         <div class="col medium-6 small-12 large-6">
                             <div class="col-inner"
-                                 style="background-color:rgba(255, 255, 255, 0.82);padding:20px 20px 20px 20px;margin:50px 0px 0px 0px;">
+                                 style="background-color:rgba(255, 255, 255, 0.82);padding:20px 20px 20px 20px;margin:50px 0px 0px 0px;border-radius: 15px;">
                                 <h2><span style="color: #105458;">Tổng quan dự án</span></h2>
                                 <div class="div_list">
                                     <ul style="list-style: none"><span style="color: #105458; line-height: 20px;"></p>
@@ -562,11 +563,11 @@
                                         <li class="tab active has-icon"><a href="#Tang_7.jpg"><span>Tầng 7</span></a>
                                         </li>
                                         <li class="tab has-icon"><a
-                                                href="#tab_tang8-22"><span>Tâng 8 - 22</span></a></li>
+                                                href="#tab_tang8-22"><span>Tầng 8 - 22</span></a></li>
                                         <li class="tab has-icon"><a
-                                                href="#tab_tang12"><span>Tâng 12</span></a></li>
+                                                href="#tab_tang12"><span>Tầng 12</span></a></li>
                                         <li class="tab has-icon"><a
-                                                href="#tab_tang23-30"><span>Tâng 23 - 30</span></a></li>
+                                                href="#tab_tang23-30"><span>Tầng 23 - 30</span></a></li>
 
                                     </ul>
                                     <div class="tab-panels">

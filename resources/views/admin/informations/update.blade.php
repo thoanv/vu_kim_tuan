@@ -37,7 +37,7 @@
                             <div class="box-images file-upload">
                                 <div class="upload_image" data-name="favicon">
                                     <input type="hidden" class="favicon" name="favicon" value="{{old('favicon', $infomation['favicon'])}}">
-                                    <img src="{{$infomation['favicon'] ? $infomation['logo'] : '/assets/img/department.jpg'}}" alt="favicon" class="imge image-favicon">
+                                    <img src="{{$infomation['favicon'] ? $infomation['favicon'] : '/assets/img/department.jpg'}}" alt="favicon" class="imge image-favicon">
                                 </div>
                             </div>
                         </div>

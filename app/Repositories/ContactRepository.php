@@ -1,14 +1,14 @@
 <?php
 namespace App\Repositories;
 
-use App\Models\Post;
+use App\Models\Contact;
 use App\Repositories\Support\AbstractRepository;
 use Illuminate\Support\Facades\Auth;
 
 class ContactRepository extends AbstractRepository
 {
     public function model(){
-        return Post::class;
+        return Contact::class;
     }
     public function getData($request)
     {

@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Jobs\SendEmail;
 use App\Models\Post;
 use Illuminate\Http\Request;
 use App\Repositories\SlideRepository as SlideRepo;
@@ -52,7 +53,17 @@ class HomeController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $data = $request->only('name', 'email', 'phone', 'address', 'note');
+        $mails = $request->all();
+        $mails['time'] = date('H:i d-m-Y', time());
+        $send = dispatch(new SendEmail($mails));
+        $result = response()->json($send);
+        $response = [
+            'success' => 200,
+            'data' => true,
+            'message' => ''
+        ];
+        return $this->sendResponse($response, 'Success.');
     }
 
     /**

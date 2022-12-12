@@ -842,8 +842,11 @@ h1, h2, h3, h4, h5, h6, .heading-font {
 .essb_network_align_right .essb_network_name {
     float: right;
 }
+.flickity-enabled.is-draggable .flickity-viewport:hover{
+    opacity: 1;
+}
 .bg {
-    opacity: 0;
+    opacity: 0.9;
     transition: opacity 1s;
     -webkit-transition: opacity 1s;
 }
@@ -1200,4 +1203,16 @@ h1, h2, h3, h4, h5, h6, .heading-font {
 .click-play:hover img{
     opacity: 0.5;
     cursor: pointer;
+}
+.loading-box, .loading-comment{
+    display: none;
+}
+.line-load { display: inline-block; width: 12px; height: 12px; border-radius: 12px; background-color: var(--primary-color); margin-right: 6px; border: 1px solid #f8b742 }
+.load-3 .line-load:nth-last-child(1) {animation: loadingC .8s .1s linear infinite;}
+.load-3 .line-load:nth-last-child(2) {animation: loadingC .8s .2s linear infinite;}
+.load-3 .line-load:nth-last-child(3) {animation: loadingC .8s .3s linear infinite;}
+@keyframes loadingC {
+    0% {transform: translate(0,0);}
+    50% {transform: translate(0,15px);}
+    100% {transform: translate(0,0);}
 }

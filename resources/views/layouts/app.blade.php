@@ -65,6 +65,7 @@
           href="/wp-content/themes/flatsome/assets/css/flatsome-shopf43b.css?ver=3.7.1" type='text/css' media='all'/>
     <link rel='stylesheet' id='flatsome-style-css' href="/wp-content/themes/flatsome-child/stylef43b.css?ver=3.7.1"
           type='text/css' media='all'/>
+    <link rel="stylesheet" href="{{asset('assets/lib/sweetalert2/css/sweetalert2.min.css')}}">
     <link rel="stylesheet" href="{{asset('css/style.css')}}">
 
 
@@ -96,84 +97,40 @@
 <div id="main-menu" class="mobile-sidebar no-scrollbar mfp-hide">
     <div class="sidebar-menu no-scrollbar ">
         <ul class="nav nav-sidebar  nav-vertical nav-uppercase">
-            <li class="header-search-form search-form html relative has-icon">
-                <div class="header-search-form-wrapper">
-                    <div class="searchform-wrapper ux-search-box relative form- is-normal">
-                        <form role="search" method="get" class="searchform"
-                              action="https://mauweb.monamedia.net/luxury-parkview/">
-                            <div class="flex-row relative">
-                                <div class="flex-col flex-grow">
-                                    <input type="search" class="search-field mb-0" name="s" value=""
-                                           placeholder="Tìm kiếm&hellip;"/>
-                                    <input type="hidden" name="post_type" value="product"/>
-                                </div><!-- .flex-col -->
-                                <div class="flex-col">
-                                    <button type="submit"
-                                            class="ux-search-submit submit-button secondary button icon mb-0">
-                                        <i class="icon-search"></i></button>
-                                </div><!-- .flex-col -->
-                            </div><!-- .flex-row -->
-                            <div class="live-search-results text-left z-top"></div>
-                        </form>
-                    </div>
-                </div>
-            </li>
+
             <li id="menu-item-840"
                 class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-840">
-                <a href="index.html#gioi-thieu-m" class="nav-top-link">Giới thiệu</a></li>
+                <a href="{{route('home')}}#gioi-thieu" class="nav-top-link">Giới thiệu</a></li>
             <li id="menu-item-837"
                 class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-837">
-                <a href="index.html#vi-tri-m" class="nav-top-link">Vị trí</a></li>
+                <a href="{{route('home')}}#vi-tri" class="nav-top-link">Vị trí</a></li>
             <li id="menu-item-845"
                 class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-845">
-                <a href="index.html#tien-ich-m" class="nav-top-link">Tiện ích</a></li>
+                <a href="{{route('home')}}#tien-ich" class="nav-top-link">Tiện ích</a></li>
             <li id="menu-item-848"
                 class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-848">
-                <a href="index.html#mat-bang-m" class="nav-top-link">Mặt bằng</a></li>
-            <li id="menu-item-862"
-                class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-862">
-                <a href="index.html#thanh-toan-m" class="nav-top-link">Phương thức thanh toán</a></li>
+                <a href="{{route('home')}}#mat-bang" class="nav-top-link">Mặt bằng</a></li>
             <li id="menu-item-863"
                 class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-863">
-                <a href="index.html#tin-tuc-m" class="nav-top-link">Tin tức</a></li>
+                <a href="{{route('home')}}#tin-tuc" class="nav-top-link">Tin tức</a></li>
             <li id="menu-item-856"
                 class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-856">
-                <a href="index.html#lien-he-m" class="nav-top-link">Liên hệ</a></li>
-            <li class="account-item has-icon menu-item">
-                <a href="tai-khoan/index.html" class="nav-top-link nav-top-not-logged-in">
-    <span class="header-account-title">
-    Đăng nhập  </span>
-                </a><!-- .account-login-link -->
+                <a href="{{route('home')}}#lien-he" class="nav-top-link">Liên hệ</a></li>
 
-            </li>
-            <li class="html header-social-icons ml-0">
-                <div class="social-icons follow-icons "><a href="http://url/" target="_blank" data-label="Facebook"
-                                                           rel="noopener noreferrer nofollow"
-                                                           class="icon plain facebook tooltip"
-                                                           title="Follow on Facebook"><i
-                            class="icon-facebook"></i></a><a href="http://url/" target="_blank"
-                                                             rel="noopener noreferrer nofollow" data-label="Instagram"
-                                                             class="icon plain  instagram tooltip"
-                                                             title="Follow on Instagram"><i
-                            class="icon-instagram"></i></a><a href="http://url/" target="_blank" data-label="Twitter"
-                                                              rel="noopener noreferrer nofollow"
-                                                              class="icon plain  twitter tooltip"
-                                                              title="Follow on Twitter"><i
-                            class="icon-twitter"></i></a></div>
-            </li>
+
         </ul>
     </div><!-- inner -->
 </div><!-- #mobile-menu -->
-<a href="tel:0769220162" class="hotlinemp" rel="nofollow">
-    <div class="mypage-alo-phone" style="">
-        <div class="animated infinite zoomIn mypage-alo-ph-circle">
-        </div>
-        <div class="animated infinite pulse mypage-alo-ph-circle-fill">
-        </div>
-        <div class="animated infinite tada mypage-alo-ph-img-circle">
-        </div>
-    </div>
-</a>
+{{--<a href="tel:0769220162" class="hotlinemp" rel="nofollow">--}}
+{{--    <div class="mypage-alo-phone" style="">--}}
+{{--        <div class="animated infinite zoomIn mypage-alo-ph-circle">--}}
+{{--        </div>--}}
+{{--        <div class="animated infinite pulse mypage-alo-ph-circle-fill">--}}
+{{--        </div>--}}
+{{--        <div class="animated infinite tada mypage-alo-ph-img-circle">--}}
+{{--        </div>--}}
+{{--    </div>--}}
+{{--</a>--}}
 <!-- FB Messenger -->
 {{--<div id="fbMsg">--}}
 {{--    <img data-remodal-target="fb-messenger" src="/wp-content/plugins/fb-messenger/images/fb-messenger.png">--}}
@@ -226,11 +183,11 @@
     };
     /* ]]> */
 </script>
+<script src="{{asset('assets/lib/sweetalert2/js/sweetalert2.all.min.js')}}"></script>
 <script type='text/javascript' src="/wp-content/themes/flatsome/assets/js/flatsomef43b.js?ver=3.7.1"></script>
 <script>
     var videoLink = $('.el-video-link-js'),
         popup_id = $('#el-video-popup'),
-        videoLink = $('.el-video-link-js'),
         videoBody =  $('.el-video-body-js'),
         videoCloseButton = $('.el-video-button-js'),
         popupOverlay = $('.el-video-overlay_popup');

@@ -1,17 +1,10 @@
 <footer id="footer" class="footer-wrapper">
-
-    <section class="section sec_footer dark hide-for-small" id="section_962445108">
+    <section class="section sec_footer dark " id="section_962445108">
         <div class="bg section-bg fill bg-fill  ">
-
-
         </div><!-- .section-bg -->
-
         <div class="section-content relative">
-
-
                 <span class="scroll-to" data-label="Scroll to: #lien-he" data-bullet="true" data-link="#lien-he"
                       data-title="Footer"><a name="lien-he"></a></span>
-
             <div class="gap-element" style="display:block; height:auto; padding-top:60px" class="clearfix"></div>
 
             <div class="row align-center" id="row-605036246">
@@ -55,7 +48,7 @@
 
                     </div>
                 </div>
-                <div class="col medium-3 small-6 large-6">
+                <div class="col medium-3 small-12 large-6">
                     <div class="col-inner">
 
                         <h3 style="text-align: center;">Đăng ký tham quan và nhận báo giá</h3>
@@ -64,8 +57,7 @@
                                 style="color: #ffffff;">hoặc ĐĂNG KÝ THAM QUAN và NHẬN BÁO GIÁ</span></p>
                         <div role="form" class="wpcf7" id="wpcf7-f43-o2" lang="vi" dir="ltr">
                             <div class="screen-reader-response"></div>
-                            <form id="apply-job" action="{{route('contact.store')}}" method="post"
-                                  class="wpcf7-form">
+                            <form id="apply-job" action="{{route('contact.store')}}" method="post" >
                                 @csrf
                                 <div class="form-ct">
                                     <div class="form-row w50">
@@ -75,8 +67,7 @@
                                                    value="" size="40"
                                                    class="apply-full-name wpcf7-form-control wpcf7-text wpcf7-validates-as-required form_lien_he"
                                                    id="text-name"
-                                                   aria-required="true"
-                                                   aria-invalid="false"
+                                                   required
                                                    placeholder="Họ và tên"/></span>
                                     </div>
                                     <div class="form-row w50">
@@ -87,8 +78,6 @@
                                                    size="40"
                                                    class="apply-email wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email form_lien_he"
                                                    id="email-contact"
-                                                   aria-required="true"
-                                                   aria-invalid="false"
                                                    placeholder="Email"/></span>
                                     </div>
                                     <div class="form-row w50">
@@ -98,12 +87,13 @@
                                                      value=""
                                                      class="apply-phone wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-required wpcf7-validates-as-tel form_lien_he"
                                                      id="phoneNumber"
+                                                        required
                                                      placeholder="Số điện thoại"/></span>
                                     </div>
                                     <div class="form-row w50">
                                             <span class="wpcf7-form-control-wrap text-address">
                                                 <input type="text"
-                                                  name="text-address"
+                                                  name="address"
                                                   value="" size="40"
                                                   class="apply-address wpcf7-form-control wpcf7-text form_lien_he"
                                                   id="text-address"
@@ -112,14 +102,23 @@
                                     </div>
                                     <div class="form-row">
                                             <span class="wpcf7-form-control-wrap textarea-noidung"><textarea
-                                                    name="textarea-noidung" cols="40" rows="10"
+                                                    name="note" cols="40" rows="10"
                                                     class="apply-note wpcf7-form-control wpcf7-textarea wpcf7-validates-as-required form_lien_he"
-                                                    id="textarea-noidung" aria-required="true" aria-invalid="false"
+                                                    id="noidung" aria-required="true" aria-invalid="false"
                                                     placeholder="Lời nhắn"></textarea></span>
                                     </div>
                                     <div class="form-row center-txt">
                                         <input type="submit" value="Gửi"
                                                class="wpcf7-form-control wpcf7-submit form_lien_he" />
+                                        <div class="text-center loading-comment">
+                                            <div class="loader text-center">
+                                                <p class="text-center load-3" style="display: inline-block">
+                                                    <i class="line-load"></i>
+                                                    <i class="line-load"></i>
+                                                    <i class="line-load"></i>
+                                                </p>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </form>
@@ -130,6 +129,7 @@
                 </div>
             </div>
         </div><!-- .section-content -->
+
         <style scope="scope">
 
             #section_962445108 {
@@ -178,74 +178,74 @@
             $('.apply-address').html('');
             $('.apply-note').html('');
 
-            {{--if (check) {--}}
-            {{--    $('.btn-apply-cs').css('display', 'none');--}}
-            {{--    $('.loading-comment').css('display', 'block');--}}
-            {{--    setTimeout(function () {--}}
-            {{--        $.ajax({--}}
-            {{--            type: 'POST',--}}
-            {{--            url: "{{ route('apply-now') }}",--}}
-            {{--            data: formData,--}}
-            {{--            contentType: false,--}}
-            {{--            processData: false,--}}
-            {{--            success: (res) => {--}}
-            {{--                let is_check = res.data.success;--}}
-            {{--                let data = res.data;--}}
-            {{--                console.log(data);--}}
-            {{--                if (is_check === 422) {--}}
-            {{--                    let errors = res.data.data;--}}
-            {{--                    if (errors.captcha) {--}}
-            {{--                        $('.note-captcha').html(errors.captcha[0]);--}}
-            {{--                    }--}}
-            {{--                    if (errors.file_cv) {--}}
-            {{--                        $('.note-file').html(errors.file_cv[0]);--}}
-            {{--                    }--}}
-            {{--                    getCaptcha();--}}
-            {{--                    $('.apply-captcha').val('');--}}
-            {{--                } else if (is_check === 101) {--}}
-            {{--                    const swalWithBootstrapButtons = Swal.mixin({--}}
-            {{--                        customClass: {--}}
-            {{--                            confirmButton: 'btn btn-apply-cs',--}}
-            {{--                        },--}}
-            {{--                        buttonsStyling: false--}}
-            {{--                    })--}}
-            {{--                    swalWithBootstrapButtons.fire({--}}
-            {{--                        title: 'Thông báo',--}}
-            {{--                        text: data.message,--}}
-            {{--                        icon: 'success',--}}
-            {{--                        confirmButtonText: 'Đóng',--}}
-            {{--                        reverseButtons: true--}}
-            {{--                    })--}}
-            {{--                } else {--}}
-            {{--                    // alert(data.message);--}}
-            {{--                    const swalWithBootstrapButtons = Swal.mixin({--}}
-            {{--                        customClass: {--}}
-            {{--                            confirmButton: 'btn btn-apply-cs',--}}
-            {{--                        },--}}
-            {{--                        buttonsStyling: false--}}
-            {{--                    })--}}
-            {{--                    swalWithBootstrapButtons.fire({--}}
-            {{--                        title: 'Thông báo',--}}
-            {{--                        text: data.message,--}}
-            {{--                        icon: 'success',--}}
-            {{--                        confirmButtonText: 'Đóng',--}}
-            {{--                        reverseButtons: true--}}
-            {{--                    }).then((result) => {--}}
-            {{--                        if (result.isConfirmed) {--}}
-            {{--                            window.location.reload();--}}
-            {{--                        }--}}
-            {{--                    })--}}
-            {{--                    // window.location.reload();--}}
-            {{--                }--}}
-            {{--                $('.btn-apply-cs').css('display', 'inline-block');--}}
-            {{--                $('.loading-comment').css('display', 'none');--}}
-            {{--            },--}}
-            {{--            error: function (response) {--}}
-            {{--                $('#file-input-error').text(response.responseJSON.message);--}}
-            {{--            }--}}
-            {{--        });--}}
-            {{--    }, 500);--}}
-            {{--}--}}
+            if (check) {
+                $('.wpcf7-submit').hide();
+                $('.loading-comment').show();
+                setTimeout(function () {
+                    $.ajax({
+                        type: 'POST',
+                        url: "{{ route('contact.store') }}",
+                        data: formData,
+                        contentType: false,
+                        processData: false,
+                        success: (res) => {
+                            let is_check = res.data.success;
+                            let data = res.data;
+                            console.log(data);
+                            if (is_check === 422) {
+                                let errors = res.data.data;
+                                if (errors.captcha) {
+                                    $('.note-captcha').html(errors.captcha[0]);
+                                }
+                                if (errors.file_cv) {
+                                    $('.note-file').html(errors.file_cv[0]);
+                                }
+                                getCaptcha();
+                                $('.apply-captcha').val('');
+                            } else if (is_check === 101) {
+                                const swalWithBootstrapButtons = Swal.mixin({
+                                    customClass: {
+                                        confirmButton: 'btn btn-apply-cs',
+                                    },
+                                    buttonsStyling: false
+                                })
+                                swalWithBootstrapButtons.fire({
+                                    title: 'Thông báo',
+                                    text: data.message,
+                                    icon: 'success',
+                                    confirmButtonText: 'Đóng',
+                                    reverseButtons: true
+                                })
+                            } else {
+                                // alert(data.message);
+                                const swalWithBootstrapButtons = Swal.mixin({
+                                    customClass: {
+                                        confirmButton: 'btn btn-apply-cs',
+                                    },
+                                    buttonsStyling: false
+                                })
+                                swalWithBootstrapButtons.fire({
+                                    title: 'Thông báo',
+                                    text: data.message,
+                                    icon: 'success',
+                                    confirmButtonText: 'Đóng',
+                                    reverseButtons: true
+                                }).then((result) => {
+                                    if (result.isConfirmed) {
+                                        window.location.reload();
+                                    }
+                                })
+                                // window.location.reload();
+                            }
+                            $('.wpcf7-submit').show();
+                            $('.loading-comment').hide();
+                        },
+                        error: function (response) {
+                            $('#file-input-error').text(response.responseJSON.message);
+                        }
+                    });
+                }, 500);
+            }
         });
     </script>
     <script type="text/javascript">
