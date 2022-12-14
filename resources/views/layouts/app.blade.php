@@ -174,10 +174,21 @@
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-body">
-                <div class="form_wrapper">
+
+                <div class="form_wrapper position-relative">
+                    <a class="closes" style="position: absolute; right: 3px; top: 3px; border: 1px solid #FFF; padding: 2px; border-radius: 50%; width: 20px; height: 20px; justify-content: center; display: flex; align-items: center;cursor: pointer">
+                        <i style="color: white" class="fa fa-times" aria-hidden="true"></i>
+                    </a>
                     <div class="form_container">
                         <div class="title_container">
-                            <h2 style="text-transform: uppercase">Đăng ký tư vấn</h2>
+                            <div >
+                                <h3 class="mb-0" style="color: white; text-transform: uppercase">Đăng ký tư vấn</h3>
+                                <p class="mb-0" style="color: white">Nhập thông tin để đăng ký tham quan</p>
+                            </div>
+                            <div style="display: flex; justify-content: flex-start; align-items: center; /* float: right; */ /* text-align: center; */ /* width: 10%; */ margin-left: auto;">
+                                <span><i style="color: #FFF; font-size: 35px" aria-hidden="true" class="fa fa-pencil fa-5"></i></span>
+                            </div>
+
                         </div>
                         <div class="row">
                             <div class="">
@@ -201,11 +212,44 @@
                                         </span>
                                         <input type="text" name="phone" id="phoneNumberPopup" placeholder="Số điện thoại (*)" required/>
                                     </div>
-                                    <div class="text-center">
-                                        <input class="button-register" type="submit" value="Đăng ký"/>
-                                        <a class="closes button button-register">Đóng</a>
+                                    <div class="input_field" style="margin-bottom: 0">
+                                         <span style="height: 100%;">
+                                            <i aria-hidden="true" class="fa fa-hand-o-up"></i>
+                                        </span>
+                                        <select name="can-ho" id="" style="padding-left: 50px">
+                                            <option value="">Chọn loại căn hộ</option>
+                                            <option value="Căn hộ 2PN: 75 - 87 m2">Căn hộ 2PN: 75 - 87 m<sup>2</sup></option>
+                                            <option value="Căn hộ 3PN: 91 - 116 m2">Căn hộ 3PN: 91 - 116 m<sup>2</sup></option>
+                                            <option value="Căn hộ 3PN: 131 - 162 m2">Căn hộ 3PN: 131 - 162 m<sup>2</sup></option>
+                                        </select>
                                     </div>
+{{--                                    <div>--}}
+{{--                                        <h5 style="color: white">Quý khách đang quan tâm:</h5>--}}
+{{--                                        <div>--}}
+{{--                                            <label class="box-checkbox">Căn hộ 2PN: 75 - 87 m<sup>2</sup>--}}
+{{--                                                <input type="checkbox" name="can-ho-1" value="CĂN HỘ 2PN: 75 - 87 m2">--}}
+{{--                                                <span class="checkmark"></span>--}}
+{{--                                            </label>--}}
+{{--                                        </div><div>--}}
+{{--                                            <label class="box-checkbox">Căn hộ 3PN: 91 - 116 m<sup>2</sup>--}}
+{{--                                                <input type="checkbox" name="can-ho-2" value="CĂN HỘ 3PN: 91 - 116 m2">--}}
+{{--                                                <span class="checkmark"></span>--}}
+{{--                                            </label>--}}
+{{--                                        </div>--}}
+{{--                                        <div>--}}
+{{--                                            <label class="box-checkbox">Căn hộ 3PN: 131 - 162 m<sup>2</sup>--}}
+{{--                                                <input type="checkbox" name="can-ho-3" value="CĂN HỘ 3PN: 131 - 162 m2">--}}
+{{--                                                <span class="checkmark"></span>--}}
+{{--                                            </label>--}}
+{{--                                        </div>--}}
 
+{{--                                    </div>--}}
+                                    <hr>
+                                    <div class="text-center">
+                                        <input class="button-register" style="margin-bottom: 0;display: block;
+    width: 100%;border-radius: 0!important;" type="submit" value="Đăng ký"/>
+{{--                                        <a class="closes button button-register" style="margin-bottom: 0">Đóng</a>--}}
+                                    </div>
                                 </form>
                             </div>
                         </div>
@@ -283,6 +327,15 @@
     $('.myBtn').on('click', function (e) {
         $('#modalnew').css('display', 'inline-block');
     });
+    // $('#modalnew').click(function() {
+    //     $(this).hide();
+    // });
+    // $(document).on('click',function(e){
+    //     if($('#modalnew').hasClass('modal')){
+    //         $('#modalnew').css('display', 'none')
+    //         // console.log("yes");
+    //     }
+    // });
     $('.closes').on('click', function (e) {
         $('#modalnew').css('display', 'none');
     });
@@ -354,7 +407,7 @@
     /* Modal Content/Box */
     .modal-content {
         margin: 10% auto; /* 15% from the top and centered */
-        width: 28%;
+        width: 23%;
     }
     @media (max-width: 768px) {
         .modal-content {
@@ -375,6 +428,74 @@
         color: black;
         text-decoration: none;
         cursor: pointer;
+    }
+    .box-checkbox {
+        display: block;
+        position: relative;
+        padding-left: 35px;
+        margin-bottom: 12px;
+        cursor: pointer;
+        font-size: 15px;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        color: white;
+    }
+    /* Hide the browser's default checkbox */
+    .box-checkbox input {
+        position: absolute;
+        opacity: 0;
+        cursor: pointer;
+        height: 0;
+        width: 0;
+    }
+
+    /* Create a custom checkbox */
+    .checkmark {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 25px;
+        width: 25px;
+        background-color: transparent;
+        border: 1px solid #ccc;
+    }
+
+    /* On mouse-over, add a grey background color */
+    .box-checkbox:hover input ~ .checkmark {
+        background-color: #2b3723;
+    }
+
+    /* When the checkbox is checked, add a blue background */
+    .box-checkbox input:checked ~ .checkmark {
+        background-color: transparent;
+        border: 1px solid #ccc;
+    }
+
+    /* Create the checkmark/indicator (hidden when not checked) */
+    .checkmark:after {
+        content: "";
+        position: absolute;
+        display: none;
+    }
+
+    /* Show the checkmark when checked */
+    .box-checkbox input:checked ~ .checkmark:after {
+        display: block;
+    }
+
+    /* Style the checkmark/indicator */
+    .box-checkbox .checkmark:after {
+        left: 8px;
+        top: 2px;
+        width: 8px;
+        height: 13px;
+        border: solid white;
+        border-width: 0 3px 3px 0;
+        -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        transform: rotate(45deg);
     }
 </style>
 <script>

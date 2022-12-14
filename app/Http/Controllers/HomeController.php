@@ -53,7 +53,6 @@ class HomeController extends Controller
      */
     public function store(Request $request)
     {
-        $data = $request->only('name', 'email', 'phone', 'address', 'note');
         $mails = $request->all();
         $mails['time'] = date('H:i d-m-Y', time());
         $send = dispatch(new SendEmail($mails));

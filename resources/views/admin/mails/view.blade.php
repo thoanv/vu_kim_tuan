@@ -198,6 +198,13 @@
                 <div class="text-one">{{$mail['address']}}</div>
             </div>
             @endif
+            @if(isset($mail['can-ho']))
+                <div class="email details">
+                    <div class="topic">Căn hộ quan tâm</div>
+                    <div class="text-one">{{$mail['can-ho']}}</div>
+
+                </div>
+            @endif
         </div>
         <div class="left-side">
             @if(isset($mail['note']))
