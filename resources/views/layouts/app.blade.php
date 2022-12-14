@@ -183,7 +183,7 @@
                         <div class="title_container">
                             <div >
                                 <h3 class="mb-0" style="color: white; text-transform: uppercase">Đăng ký tư vấn</h3>
-                                <p class="mb-0" style="color: white; font-size: 14px">Nhập thông tin để đăng ký tham quan dự án</p>
+                                <p class="mb-0" style="color: white; font-size: 14px">Nhập thông tin để đăng ký thăm quan dự án</p>
                             </div>
                             <div style="display: flex; justify-content: flex-start; align-items: center; /* float: right; */ /* text-align: center; */ /* width: 10%; */ margin-left: auto;">
                                 <span><i style="color: #FFF; font-size: 33px" aria-hidden="true" class="fa fa-pencil fa-5"></i></span>
