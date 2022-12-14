@@ -34,8 +34,8 @@ class SendEmail implements ShouldQueue
         $email = new Send($this->mail);
         $email->subject('Đăng ký nhận thông tin và tham quan bất động sản THE NINE');
         $email->from('thenine@haiphatland.com.vn', 'Chung cư The Nine - Số 9 Phạm Văn Đồng');
-        $result = \Mail::to('thoanv@haiphatland.com.vn')->cc(['vanthoa225@gmail.com']);
-//        $result = \Mail::to('tuanvk@haiphatland.com.vn')->cc(['tuanvk.tmq@gmail.com']);
+//        $result = \Mail::to('thoanv@haiphatland.com.vn')->cc(['vanthoa225@gmail.com']);
+        $result = \Mail::to('tuanvk@haiphatland.com.vn')->cc(['tuanvk.tmq@gmail.com']);
 
         $result->send($email);
     }
