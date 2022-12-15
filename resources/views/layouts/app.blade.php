@@ -10,7 +10,8 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <title>Chung cư The Nine - Số 9 Phạm Văn Đồng</title>
-
+    <meta name="keywords" content="Chung cư The Nine số 9 Phạm Văn Đồng, The Nine 9 Phạm Văn Đồng, The Nine Phạm Văn Đồng">
+    <meta name="description" content="The Nine 9 - tọa lạc tại vị trí chiến lược, trên mảnh đất vàng gần như cuối cùng tại trục đường Phạm Văn Đồng.">
     <link rel="shortcut icon" href="{{$info['favicon']}}">
     <style type="text/css">
         img.wp-smiley,
@@ -78,7 +79,7 @@
     <meta property="og:image" content="@yield('image', $info['thumbnail'])"/>
     <meta property="og:image:width" content="1200"/>
     <meta property="og:image:height" content="630"/>
-
+    <meta property="og:description" content="The Nine 9 - tọa lạc tại vị trí chiến lược, trên mảnh đất vàng gần như cuối cùng tại trục đường Phạm Văn Đồng.">
     <meta name="twitter:card" content="summary_large_image"/>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-CCJ7W5R771"></script>
