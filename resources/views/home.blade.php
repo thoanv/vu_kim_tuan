@@ -800,39 +800,57 @@
                 </style>
             </section>
 
-
             <section class="section sec_news" id="section_851447186">
-                <div class="bg section-bg fill bg-fill  bg-loaded">
+                <div class="bg section-bg fill bg-fill  ">
 
 
                 </div><!-- .section-bg -->
 
                 <div class="section-content relative">
-
-                    <span class="scroll-to" data-label="Scroll to: #tin-tuc" data-bullet="true" data-link="#tin-tuc"
-                          data-title="Tin tuc"><a name="tin-tuc"></a></span>
+                <span class="scroll-to" data-label="Scroll to: #tin-tuc" data-bullet="true" data-link="#tin-tuc"
+                      data-title="Tin tuc">
+                    <a name="tin-tuc"></a></span>
                     <div class="gap-element" style="display:block; height:auto; padding-top:60px"
                          class="clearfix"></div>
-                    <div class="row" id="row-1908798579">
+                    <div class="row" id="row-1029960896">
                         <div class="col small-12 large-12">
-                            <div class="col-inner text-center" style="margin:0px 0px -15px 0px;">
+                            <div class="col-inner text-center">
                                 <h1><span style="font-size: 130%;">Bài viết – Tin tức</span></h1>
 
-
-                                <div class="row large-columns-4 medium-columns-2 small-columns-1">
+                                <div
+                                    class="row large-columns-4 medium-columns- small-columns-2 row-full-width slider row-slider slider-nav-simple slider-nav-outside slider-nav-push"
+                                    data-flickity-options='{"imagesLoaded": true, "groupCells": "100%", "dragThreshold" : 5, "cellAlign": "left","wrapAround": true,"prevNextButtons": true,"percentPosition": true,"pageDots": false, "rightToLeft": false, "autoPlay" : true}'>
                                     @foreach($posts as $post)
-                                        <div class="col post-item">
+                                        <div class="gallery-col col post-item">
+{{--                                            <div class="col-inner">--}}
+{{--                                                <a href="{{route('detail', $post['slug'])}}"--}}
+{{--                                                   class="plain">--}}
+{{--                                                    <div class="box box-normal box-text-bottom box-blog-post has-hover">--}}
+{{--                                                        <div class="box-image">--}}
+{{--                                                            <div class="image-zoom image-cover"--}}
+{{--                                                                 style="padding-top:56.25%;">--}}
+{{--                                                                <img width="1920" height="815" src="{{$post['avatar']}}"--}}
+{{--                                                                     class="attachment-original size-original wp-post-image"--}}
+{{--                                                                     alt="" sizes="(max-width: 1920px) 100vw, 1920px">--}}
+{{--                                                            </div>--}}
+{{--                                                        </div><!-- .box-image -->--}}
+{{--                                                        <div class="box-text text-center">--}}
+{{--                                                            <div class="box-text-inner blog-post-inner">--}}
+{{--                                                                <h5 class="post-title is-large ">{{$post['name']}}</h5>--}}
+{{--                                                                <div class="post-meta is-small op-8">{{$post->getDate()}}</div>--}}
+{{--                                                                <div class="is-divider"></div>--}}
+{{--                                                                <p class="from_the_blog_excerpt ">{{$post['description']}}</p>--}}
+{{--                                                            </div><!-- .box-text-inner -->--}}
+{{--                                                        </div><!-- .box-text -->--}}
+{{--                                                    </div><!-- .box -->--}}
+{{--                                                </a><!-- .link -->--}}
+{{--                                            </div>--}}
                                             <div class="col-inner">
-                                                <a href="{{route('detail', $post['slug'])}}"
-                                                   class="plain">
+                                                <a href="{{route('detail', $post['slug'])}}" class="plain">
                                                     <div class="box box-normal box-text-bottom box-blog-post has-hover">
                                                         <div class="box-image">
                                                             <div class="image-cover" style="padding-top:56.25%;">
-                                                                <img width="890" height="400"
-                                                                     src="{{$post['avatar']}}"
-                                                                     class="attachment-original size-original wp-post-image"
-                                                                     alt=""
-                                                                     sizes="(max-width: 890px) 100vw, 890px"/></div>
+                                                                <img width="890" height="400" src="{{$post['avatar']}}" class="attachment-original size-original wp-post-image" alt="" sizes="(max-width: 890px) 100vw, 890px"></div>
                                                         </div><!-- .box-image -->
                                                         <div class="box-text text-center">
                                                             <div class="box-text-inner blog-post-inner">
@@ -847,13 +865,16 @@
                                                         </div><!-- .box-text -->
                                                     </div><!-- .box -->
                                                 </a><!-- .link -->
-                                            </div><!-- .col-inner -->
+                                            </div>
                                         </div><!-- .col -->
                                     @endforeach
                                 </div>
+
                             </div>
                         </div>
                     </div>
+                    <div class="gap-element" style="display:block; height:auto; padding-top:20px"
+                         class="clearfix"></div>
                 </div><!-- .section-content -->
 
 
@@ -865,7 +886,6 @@
                     }
                 </style>
             </section>
-
         </div>
     </main><!-- #main -->
 @endsection

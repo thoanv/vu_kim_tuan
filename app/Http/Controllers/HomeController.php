@@ -27,7 +27,7 @@ class HomeController extends Controller
     {
         $slides = $this->slideRepo->slides();
         $posts = $this->postRepo->getPostByType();
-        $tienIchs = $this->postRepo->getPostByType('tien_ich', 5);
+        $tienIchs = $this->postRepo->getPostByType('tien_ich');
         return view('home', [
             'slides' => $slides,
             'posts'  => $posts,

@@ -31,9 +31,9 @@ class PostRepository extends AbstractRepository
         return $query->orderBy('id', 'DESC')->paginate(20);
     }
 
-    public function getPostByType($tpe = 'bai_viet', $take = 4)
+    public function getPostByType($tpe = 'bai_viet')
     {
-        return $this->model->where([['status', true], ['type', $tpe]])->take($take)->get();
+        return $this->model->where([['status', true], ['type', $tpe]])->get();
     }
 
     public function detail($slug)
